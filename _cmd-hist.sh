@@ -53,4 +53,6 @@ npx create-next-app next-playground
 cd next-playground
 npm run dev
 
+# http://localhost:3000/citylist
+
 

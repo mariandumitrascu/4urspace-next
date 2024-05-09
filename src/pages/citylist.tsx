@@ -1,3 +1,4 @@
+// src/pages/citylist.tsx
 import React, { useState, useEffect } from 'react';
 
 type City = {
@@ -14,12 +15,15 @@ const CityListPage: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://4urspace.com/autocomplete?type=vndrsbycity');
+        const response = await fetch('/api/citylist');  // Update the fetch URL to your proxy endpoint
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const data: City[] = await response.json();
         setCities(data);
-        setIsLoading(false);
       } catch (error) {
         console.error('Failed to fetch cities:', error);
+      } finally {
         setIsLoading(false);
       }
     };
