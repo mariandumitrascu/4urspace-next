@@ -1,0 +1,787 @@
+.idash-col2 {
+    background: #fff;
+    box-shadow: inset 0 0 0 1px #bfe9f8;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 32px 16px 0;
+    padding: 0 16px 16px;
+    width: calc(100% - 32px);
+}
+
+.idash-col2>.idash-separate {
+    margin: 24px -16px 0;
+}
+
+@media (min-width: 960px) {
+    .idash-col2.iwidth-50 {
+        width: calc(50% - 32px);
+    }
+}
+
+.idash {
+    font-size: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.idash-content {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.idash-content-b {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.loadingText {
+    font-size: 14px;
+    font-weight: 800;
+    margin: 20px auto;
+}
+
+nav.idash-nav {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 16px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 100%;
+}
+
+.idash-content>h1.isize-s {
+    color: #00a7e2;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 16px 0 0;
+    padding: 0 16px;
+    text-align: left;
+}
+
+h1.isize-b {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 24px 0 0;
+    padding: 0 16px;
+    text-align: left;
+}
+
+
+.filter-select {
+    padding: 6px 12px;
+    outline: 1px solid #00a7e2;
+    border: 1px solid #00a7e2;
+    font-size: 12px;
+    background-color: #e9f8fd;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 700;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 1px #e6e6e6;
+    display: block;
+    margin: 24px 0 0 0;
+    margin-right: 16px;
+}
+
+.filter-select:focus {
+    outline: 1px solid #00a7e2;
+    border-color: #00a7e2;
+    box-shadow: 0 0 5px rgb(0, 167, 226, 0.5);
+}
+
+
+
+.premium {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    overflow: hidden;
+}
+
+.non-premium {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    overflow: hidden;
+}
+
+.premium-indicator {
+    background: #00a7e2;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    right: 45px;
+    padding: 35px 0 3px 20px;
+    position: relative;
+    text-align: left;
+    top: -28px;
+    transform: rotate(-22.5deg);
+    transform-origin: 0 0;
+    width: 130px;
+    z-index: 1;
+}
+
+.new-project {
+    background: #c00;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    left: 12rem;
+    padding: 20px 40px 30px 30px;
+    position: relative;
+    text-align: center;
+    top: -30px;
+    border-radius: 100%;
+    transform: rotate(-10.5deg);
+    transform-origin: 0 0;
+    z-index: 1;
+    margin: 0;
+    width: 100px;
+    margin-bottom: -70px;
+}
+
+.idash-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 375px) {
+    .new-project {
+        left: 15rem;
+    }
+}
+
+
+@media (min-width: 425px) {
+    .new-project {
+        left: 18rem;
+    }
+}
+
+@media (min-width: 720px) {
+    .idash {
+        padding-top: 16px;
+    }
+
+    /*.idash-content {
+      width: calc(100% - 200px);
+    }*/
+
+    .idash-content-b {
+        width: 100%;
+    }
+
+    nav.idash-nav {
+        width: 200px;
+    }
+
+    .premium-indicator {
+        background: #00a7e2;
+        box-sizing: border-box;
+        color: #fff;
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        right: 40px;
+        padding: 25px 0 3px 20px;
+        margin-bottom: -38px;
+        position: relative;
+        text-align: left;
+        top: -10px;
+        transform: rotate(-22.5deg);
+        transform-origin: 0 0;
+        width: 130px;
+        z-index: 1;
+    }
+
+    .new-project {
+        background: #c00;
+        box-sizing: border-box;
+        color: #fff;
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        left: 9rem;
+        padding: 15px 35px 30px;
+        position: relative;
+        text-align: left;
+        top: -20px;
+        border-radius: 100%;
+        transform: rotate(-13.5deg);
+        transform-origin: 0 0;
+        z-index: 1;
+        margin: 0;
+        margin-bottom: -70px;
+    }
+}
+
+@media (min-width: 780px) {
+    .new-project {
+        left: 10rem;
+        top: -16px;
+        margin-bottom: -70px;
+    }
+}
+
+@media (min-width: 850px) {
+    .new-project {
+        left: 11.5rem;
+        top: -16px;
+        margin-bottom: -70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .new-project {
+        left: 17rem;
+        top: -16px;
+        margin-bottom: -70px;
+    }
+}
+
+@media (min-width: 1184px) {
+    .new-project {
+        left: 12rem;
+        top: -16px;
+        margin-bottom: -70px;
+    }
+}
+
+.idash-menu {
+    display: block;
+    margin: 32px 0 0;
+    position: relative;
+    width: 100%;
+}
+
+.idash-menu .iselected a {
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 1px #ccc;
+    color: #5a6666;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 0 0 44px;
+    position: relative;
+}
+
+.idash-menu .iselected a:before {
+    /*background: transparent url(../images/idash-menu.png) no-repeat 0 0;*/
+    background-size: 48px;
+    content: "";
+    display: block;
+    height: 24px;
+    left: 8px;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    width: 24px;
+}
+
+.idash-menu .iselected a:after {
+    border: solid #5a6666;
+    border-width: 0 1px 1px 0;
+    content: "";
+    display: block;
+    padding: 3px;
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+.idash-menu.ihover .iselected a {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.idash-menu.ihover .iselected a:after {
+    top: 17px;
+    transform: rotate(-135deg);
+}
+
+.idash-menu>ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.idash-menu>ul>li {
+    display: block;
+    list-style-type: none;
+    margin: 12px 0 0;
+    padding: 0;
+}
+
+.idash-menu>ul>li>a {
+    color: #5a6666;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 0 0 44px;
+    position: relative;
+}
+
+.idash-menu>ul>li>a:hover {
+    color: #000;
+}
+
+.idash-menu>ul>li.iactive>a {
+    color: #00a7e2;
+}
+
+.idash-menu>ul>li>a:before {
+    /*background: transparent url(../images/idash-menu.png) no-repeat 0 0;*/
+    background-size: 48px;
+    content: "";
+    display: block;
+    height: 24px;
+    left: 8px;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    width: 24px;
+}
+
+.idash-menu .idash-menuhome>a:before {
+    background-position: 0 0;
+}
+
+.idash-menu .idash-menuproject>a:before {
+    background-position: 0 -24px;
+}
+
+.idash-menu .idash-menunotify>a:before {
+    background-position: 0 -48px;
+}
+
+.idash-menu .idash-menumessage>a:before {
+    background-position: 0 -72px;
+}
+
+.idash-menu .idash-menutask>a:before {
+    background-position: 0 -96px;
+}
+
+.idash-menu .idash-menusetting>a:before {
+    background-position: 0 -120px;
+}
+
+.idash-menu li.iactive>a:before {
+    background-position-x: -24px;
+}
+
+.idash-menu .idash-menualert {
+    color: #f60;
+}
+
+.idash-menu .idash-menualert:before {
+    background: #f60;
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px #f3f3f3;
+    content: "";
+    display: block;
+    height: 6px;
+    left: 25px;
+    position: absolute;
+    top: 10px;
+    width: 6px;
+}
+
+.idash-menu>ul>li.iparent>a:after {
+    border: solid #5a6666;
+    border-width: 0 1px 1px 0;
+    content: "";
+    display: block;
+    padding: 3px;
+    position: absolute;
+    right: 8px;
+    top: 14px;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+.idash-menu>ul>li.iparent.ihover>a:after {
+    top: 16px;
+    transform: rotate(-135deg);
+}
+
+.ivendorflag li {
+    overflow: hidden;
+    position: relative;
+}
+
+.ivendorflag .ii-flag {
+    background: #00a7e2;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    left: -27px;
+    padding: 37px 0 3px 20px;
+    position: absolute;
+    text-align: left;
+    top: -5px;
+    transform: rotate(-22.5deg);
+    transform-origin: 0 0;
+    width: 130px;
+    z-index: 1;
+}
+
+.ivendorflag .ii-flag+.ii-1 {
+    margin-top: 5px;
+}
+
+.ivendorflag .ii-new {
+    background: #f60;
+    border-radius: 50%;
+    bottom: -10px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 15px 0;
+    position: absolute;
+    right: -5px;
+    text-align: center;
+    width: 60px;
+}
+
+.ivendorflag .ii-new+.ii-3 {
+    padding-right: 40px;
+}
+
+.idash-menu ul ul {
+    display: block;
+    height: 0;
+    list-style-type: none;
+    margin: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.idash-menu ul>li.ihover>ul {
+    height: auto;
+    opacity: 1;
+}
+
+.idash-menu ul ul li {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.idash-menu ul ul li a {
+    color: #5a6666;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 2px 0 2px 44px;
+    position: relative;
+}
+
+.idash-menu ul ul li a:hover {
+    color: #000;
+}
+
+.idash-menu ul ul li.iactive>a {
+    color: #00a7e2;
+}
+
+@media (min-width: 720px) {
+    .idash-menu .iselected {
+        display: none;
+    }
+
+    .idash-menu>ul {
+        display: block !important;
+    }
+}
+
+@media (max-width: 719px) {
+    .idash-menu.ihover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .idash-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .idash-menu>ul {
+        background: #fff;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        box-shadow: inset 0 0 0 1px #ccc, 0 0 10px rgba(0, 0, 0, 0.1);
+        display: none;
+        left: 0;
+        padding: 0 0 4px;
+        position: absolute;
+        top: 39px;
+        z-index: 9;
+    }
+
+    .idash-menu>ul>li {
+        margin: 4px 0 0;
+    }
+}
+
+.idash-colset {
+    display: block;
+    width: 100%;
+}
+
+.idash-col2 {
+    background: #fff;
+    box-shadow: inset 0 0 0 1px #bfe9f8;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 32px 16px 0;
+    padding: 0 16px 16px;
+    width: calc(100% - 32px);
+}
+
+.idash-col2>.idash-separate {
+    background: #f3f3f3;
+    border-bottom: 1px solid #bfe9f8;
+    border-top: 1px solid #bfe9f8;
+    display: block;
+    height: 32px;
+    margin: 24px -16px 0;
+    width: calc(100% + 32px);
+}
+
+.idash-colnote {
+    display: block;
+    flex: none;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    right: -16px;
+    top: 0;
+    width: 120px;
+    z-index: 1;
+}
+
+.idash-colnote p {
+    background: #00a7e2;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+    position: absolute;
+    right: -45px;
+    top: 25px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 160px;
+}
+
+.idash-app {
+    /*padding: 10px 2px 20px !important;*/
+    padding: 0px !important;
+}
+
+.idash-colset+.idash-colset {
+    margin-top: 160px;
+}
+
+.idash-colset+.idev {
+    margin-top: 160px;
+}
+
+@media (min-width: 720px) {
+    .idash-col2 {
+        padding: 32px 32px 32px;
+    }
+
+    .idash-col2>.idash-separate {
+        margin: 32px -32px 8px;
+        width: calc(100% + 64px);
+    }
+
+    .idash-colnote {
+        right: -32px;
+        top: -8px;
+    }
+}
+
+@media (min-width: 960px) {
+    .idash-colset {
+        display: flex;
+    }
+
+    .idash-col2.iwidth-50 {
+        width: calc(50% - 32px);
+    }
+}
+
+@media (max-width: 639px) {
+    .idash-colnote p {
+        font-size: 10px;
+        line-height: 16px;
+        right: -50px;
+        top: 20px;
+    }
+}
+
+@media (max-width: 719px) {
+    .idash-col2 {
+        margin-top: 16px;
+    }
+
+    .idash-col2>.idash-separate {
+        height: 16px;
+    }
+}
+
+.idash-plain {
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+}
+
+.idash-plain>h1 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 24px 0 0;
+}
+
+.idash-plain>p {
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+.idash-spot {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.idash-spot .ii-text {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.idash-spot .ii-text>h1 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 24px 0 0;
+}
+
+.idash-spot .ii-text>p {
+    font-size: 13px;
+    margin: 8px 0 0;
+}
+
+.idash-spot .ii-image {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+.idash-spot .ii-image img {
+    display: block;
+    margin: 24px auto 0;
+}
+
+.idash-spot.ileft {
+    text-align: left;
+    display: flex;
+}
+
+.idash-spot.ileft .ii-text {
+    width: calc (100% - 132px);
+}
+
+.idash-spot.ileft .ii-image {
+    margin-bottom: -8px;
+    margin-top: -8px;
+    padding-left: 32px;
+    width: 132px;
+}
+
+.idash-spot.ileft .ii-image img {
+    width: 100%;
+}
+
+.idash-spot.ileft+.ifieldsearch {
+    margin-top: 32px;
+}
+
+.idash-spot.icenter {
+    text-align: center;
+}
+
+.idash-spot.icenter .ii-image img {
+    max-height: 160px;
+    max-width: 100%;
+}
+
+@media (min-width: 720px) {
+    .idash-spot.ileft .ii-text {
+        width: calc (100% - 172px);
+    }
+
+    .idash-spot.ileft .ii-image {
+        width: 172px;
+        margin-bottom: -16px;
+        margin-top: -16px;
+    }
+
+    .idash-spot.icenter .ii-image img {
+        max-height: 200px;
+    }
+}
+
+@media (min-width: 720px) {
+    .idash-spot.icenter .ii-image img {
+        max-height: 160px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 960px) {
+    .idash-spot.icenter .ii-image.iseparate {
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgba(51, 153, 255, 0.5);
+    max-height: 40px;
+    max-width: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
