@@ -1,8 +1,9 @@
 // src/pages/api/categories.js
 
 export default async function handler(req, res) {
-const vendorName = 'Houston';  // Hardcoded for demonstration
-const searchType = 'City';     // Hardcoded for demonstration
+// Extract query parameters or use default values
+const vendorName = req.query.vendor_name || 'Houston';
+const searchType = req.query.search_type || 'City';
 
 const url = `https://4urspace.com/autocomplete?type=vndrcatg&q=${encodeURIComponent(vendorName)}&t=${encodeURIComponent(searchType)}`;
 

@@ -94,3 +94,5 @@ search_type='City'
 
 Parameters that are now hardcoded, i want to replace them with url parameters. They will be specified in the url.
 Please modify the last response to consider that vendor_name and search_type may be specified in the url. If they are not in the url, then fallback on the hardcoded values.
+
+# http://localhost:3000/categorylist?vendor_name=Houston&search_type=City

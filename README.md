@@ -9,13 +9,21 @@ http://localhost:3000/categorylist
 http://localhost:3000/malllist
 ```
 
-Parameters are hard-coded at this moment, but I will make them URL parameters soon.
+Parameters are hard-coded at this moment, with the exception of 'categorylist', which is using URL parameters. I wanted to see how I would do that. It can be called like this:
+```
+http://localhost:3000/categorylist?vendor_name=Houston&search_type=City
+```
+
+If no url parameters then will fall-back on the hardcoded values.
 
 *** I had to use a proxy page for each of the api, otherwise had CORS problems. Proxy API are in `/src/pages/api`***
 
-I will continue after I wake up.
+I will continue after I wake up, with the operation that we talked about.
 
 
+
+
+-------------------------------
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
