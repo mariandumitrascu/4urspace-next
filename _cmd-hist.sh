@@ -54,5 +54,39 @@ cd next-playground
 npm run dev
 
 # http://localhost:3000/citylist
+# ############################################################################################################################
 
 
+I need to do the same with a forth api for categorylist. but this api require two parameters.
+Here is how it looks:
+`
+https://4urspace.com/autocomplete?type=vndrcatg&q={vendor_name}&t={search_type}
+`
+
+An example of the call with vendor_name=Houston and search_type=Brand looks like this:
+`https://4urspace.com/autocomplete?type=vndrcatg&q=Houston&t=City`
+
+Data returned by the api looks like this:
+`[
+  {
+    "cid": "32",
+    "pid": "230",
+    "lid": "20263",
+    "cgid": "3",
+    "cgname": "Women's Apparel"
+  },
+  {
+    "cid": "32",
+    "pid": "230",
+    "lid": "20263",
+    "cgid": "4",
+    "cgname": "Women's Accessory"
+  }
+  ]` But some properties may not exist. And I want to display all properties in the output page.
+
+So, i want the same functionality as with citylist, considering that we need an api proxy the same as in your previous answer. The parameters can be hard code in this instance like this:
+
+vendor_name='Houston';
+search_type='City'
+
+# http://localhost:3000/malllist

@@ -15,7 +15,7 @@ const CityListPage: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/api/citylist');  // Update the fetch URL to your proxy endpoint
+        const response = await fetch('/api/cities');  // Update the fetch URL to your proxy endpoint
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
