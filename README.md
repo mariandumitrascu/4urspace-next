@@ -1,3 +1,23 @@
+# Status from Marian:
+
+
+I created a page for each api, in pages. They can be called like this:
+```
+http://localhost:3000/citylist
+http://localhost:3000/vendorlist
+http://localhost:3000/categorylist
+http://localhost:3000/malllist
+```
+
+Parameters are hard-coded at this moment, but I will make them URL parameters soon.
+
+*** I had to use a proxy page for each of the api, otherwise had CORS problems. Proxy API are in `/src/pages/api`***
+
+I will continue after I wake up.
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

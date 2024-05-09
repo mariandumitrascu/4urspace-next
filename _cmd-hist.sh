@@ -90,3 +90,7 @@ vendor_name='Houston';
 search_type='City'
 
 # http://localhost:3000/malllist
+# https://github.com/mariandumitrascu/4urspace-next
+
+Parameters that are now hardcoded, i want to replace them with url parameters. They will be specified in the url.
+Please modify the last response to consider that vendor_name and search_type may be specified in the url. If they are not in the url, then fallback on the hardcoded values.
