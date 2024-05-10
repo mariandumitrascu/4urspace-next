@@ -2,6 +2,11 @@
 
 Today: May 10:
 
+<!-- insert link to local md called data-analysis.md -->
+[Link to data-analysis.md](data-analysis.md)
+
+---
+
 Please take a look at this diagram.
 
 I think the major problem is DisplayFilter and the interaction between filter and vendors display.
