@@ -3,7 +3,12 @@
 Today: May 10:
 
 <!-- insert link to local md called data-analysis.md -->
+
 [Link to data-analysis jupyter notebook](data_analysis.ipynb)
+
+Data
+
+![1715362143980](image/README/1715362143980.png)
 
 ---
 

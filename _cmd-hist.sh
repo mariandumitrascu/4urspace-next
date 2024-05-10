@@ -19,6 +19,23 @@
 # https://4urspace.com//autocomplete?type=vndrprj&q=Soho%20House%20New%20York&t=Brand
 # https://4urspace.com//autocomplete?type=vndrcatg&q=Soho%20House%20New%20York&t=Brand
 
+# type of search can be:
+# City
+# Brand
+# Mall
+
+By Type
+    Architecture & Design (1)
+By City
+    Houston Tx (1)
+By Mall
+    Houston Galleria (1)
+By Brand
+    Saint Laurent (1)
+By Business Category
+    Women's Accessory (1)
+    Women's Apparel (1)
+
 
 # ##############################################################################################
 # prompt:
