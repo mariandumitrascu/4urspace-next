@@ -1924,7 +1924,7 @@ ul.text-testimonial h2:before {
 
 
 .epremium {
-    /*background: transparent url(/assets/images/epremium.png) no-repeat 0 0;*/
+    background: transparent url(/images/epremium.png) no-repeat 0 0;
     display: block;
     font-size: 0;
     height: 90px;
