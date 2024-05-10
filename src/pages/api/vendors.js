@@ -1,6 +1,11 @@
 // src/pages/api/vendors.js
 export default async function handler(req, res) {
-    const url = `https://4urspace.com/autocomplete?type=vndrhdr&q=${encodeURIComponent(req.query.q)}&t=${encodeURIComponent(req.query.t)}`;
+
+    // Extract query parameters or use default values
+    const vendorName = req.query.q || 'Houston';
+    const searchType = req.query.t || 'City';
+
+    const url = `https://4urspace.com/autocomplete?type=vndrhdr&q=${encodeURIComponent(vendorName)}&t=${encodeURIComponent(searchType)}`;
 
     try {
         const apiResponse = await fetch(url, {
