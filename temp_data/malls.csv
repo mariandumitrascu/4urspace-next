@@ -1,0 +1,372 @@
+cid,pid,lid,bid,brand,mid,mall,st,city,area,sc,ip
+32,16492,19974,237,TOD'S,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+32,14592,107019,224,ETRO,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+32,14022,116148,33653,Nars Cosmetics,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+32,14006,116137,19777,John Hardy,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+32,6784,107019,224,ETRO,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+32,6760,107009,9,Dior ,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+32,6759,107002,10,Roberto Cavalli ,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+32,6342,107002,10,Roberto Cavalli ,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+32,4167,20174,25,Hublot,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+32,747,20089,6,GUCCI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+32,230,20263,1,PRADA,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+51,24987,20088,96,GIORGIO ARMANI ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+51,24986,20088,96,GIORGIO ARMANI ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+51,10997,114197,180,VALENTINO,5865,NEIMAN MARCUS Post Oak Shopping Center,2315 Post Oak Boulevard,Houston Tx,GENAREA,TX,1
+51,10996,20034,180,VALENTINO,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+51,10994,20089,6,GUCCI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+51,971,20020,178,MaxMara,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+55,25412,124590,438,Saint Laurent,6600,Houston Galleria,5085 Westheimer Rd.,Houston Tx,Houston,TX,1
+55,25023,20088,96,GIORGIO ARMANI ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+55,24517,20034,180,VALENTINO,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+55,23097,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+55,18144,119381,6,GUCCI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+55,16124,20237,30,FENDI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+55,216,20089,6,GUCCI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+58,14592,107019,224,ETRO,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+58,9593,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+60,16065,117394,2257,AG Adriano Goldschmied,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+61,24118,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+61,16124,20237,30,FENDI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+61,9328,20252,98,LOUIS VUITTON,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+66,16736,117769,1887,Talbots,6421,Town & Country Village,12850 Memorial Dr,Houston Tx,Houston,TX,1
+66,15205,116960,33832,Talbot,6421,Town & Country Village,12850 Memorial Dr,Houston Tx,,TX,1
+66,3084,19965,261,Puma,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+66,3083,88458,24507,Jo-Ann Fabric and Craft,0,,9960 Old Katy Rd,Houston Tx,Houston,TX,1
+66,2733,85617,2183,Bose,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+70,24724,124104,163,NESPRESSO,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+70,23132,20099,31,JIMMY CHOO,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+70,22973,20099,31,JIMMY CHOO,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+70,15359,20224,7,Bottega Veneta,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+78,24594,20252,98,LOUIS VUITTON,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+78,14886,20229,115,COACH,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+78,13591,107007,185,AKRIS,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+78,10606,20168,227,DAVID YURMAN,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+78,10588,107020,18,Moncler,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+78,10587,107036,734,Diptyque,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+78,10578,20074,1896,CH Carolina Herrera,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+78,10561,107007,185,AKRIS,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+78,3923,20168,227,DAVID YURMAN,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+81,25108,124365,35613,Rails,8540,Montrose Collective,888 Westheimer Rd,Houston Tx,,TX,1
+83,15823,117324,98,LOUIS VUITTON,5861,NEIMAN MARCUS Galleria,2600 Post Oak Boulevard,Houston Tx,GENAREA,TX,1
+83,15613,20032,16,Tory Burch,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+83,15524,19993,117,CHANEL,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+83,15479,20167,80,CARTIER,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+83,15433,107010,144,HERMES,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+83,15362,117078,100,Apple Store,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,1
+83,14127,107013,431,Stella McCartney,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+83,413,20032,16,Tory Burch,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+91,25023,20088,96,GIORGIO ARMANI ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+91,16065,117394,2257,AG Adriano Goldschmied,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+91,14185,116240,33679,St. John Knits,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+91,14184,116239,26710,AG Jeans,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+91,13363,115817,1309,SoulCycle,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+91,10815,114073,32451,Steak 48,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+91,10812,114070,32448,State of Grace,0,,3258 Westheimer Rd,Houston Tx,Houston,TX,1
+91,4717,20168,227,DAVID YURMAN,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+91,4716,20185,97,Tiffany & Co.,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+91,4633,20224,7,Bottega Veneta,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+98,23789,123460,35299,Veronica Beard,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+98,14106,20179,17,Omega ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+98,14102,19990,118,Burberry,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+98,14074,20214,91,MAC Cosmetics,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+98,624,20179,17,Omega ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+98,623,19990,118,Burberry,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+147,18144,119381,6,GUCCI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+225,24882,123819,9,Dior ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+225,24263,123819,9,Dior ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+225,16698,20263,1,PRADA,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+516,13125,107002,10,Roberto Cavalli ,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+750,18022,119280,34427,CASA for Giorgetti ,0,,"2800 Kirby Drive, Suite B-100 Houston, Texas 77098",Houston Tx,,TX,1
+810,24742,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+810,15892,20166,12,Bulgari ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+937,15476,107018,95,DOLCE & GABBANA,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+937,15308,20224,7,Bottega Veneta,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+937,7228,107009,9,Dior ,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,1
+937,7215,107922,718,Alexander McQueen,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,1
+1487,25316,115674,438,Saint Laurent,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,1
+1487,13054,115674,438,Saint Laurent,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,1
+1487,9327,20252,98,LOUIS VUITTON,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+2129,16231,20089,6,GUCCI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+2150,25193,123819,9,Dior ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+2163,23964,20270,59,SWAROVSKI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+2163,17686,118984,505,Maje,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+2163,17685,118983,531,Sandro,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+2163,17663,118961,59,SWAROVSKI,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,1
+2288,24297,123835,355,Balenciaga,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+2288,24119,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+2295,14533,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+3008,25181,124418,12655,Evereve,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+3380,25048,124332,26,Aritzia,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+3595,22963,122966,909,Kendra Scott,5775,Highland Village,4055 Westheimer Road,Houston Tx,GENAREA,TX,1
+3595,22916,122932,3986,Brahmin,6692,Citycentre Plaza,800 Sorella Ct,Houston Tx,,TX,1
+3595,19851,120842,15381,Zales,777,Willowbrook Mall,2000 Willowbrook Mall,Houston Tx,Houston,TX,1
+5590,25547,124699,18,Moncler,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+6816,24340,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+7059,24987,20088,96,GIORGIO ARMANI ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+7059,24986,20088,96,GIORGIO ARMANI ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+10075,24910,20224,7,Bottega Veneta,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+10075,24897,20088,96,GIORGIO ARMANI ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+10075,24824,20089,6,GUCCI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,1
+45,6439,92468,192,CELINE,5861,NEIMAN MARCUS Galleria,2600 Post Oak Boulevard,Houston Tx,GENAREA,TX,0
+57,7620,20089,6,GUCCI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+76,14886,20229,115,COACH,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+80,23789,123460,35299,Veronica Beard,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+80,16541,117630,12021,MCM,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+100,16080,117394,2257,AG Adriano Goldschmied,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+100,14184,116239,26710,AG Jeans,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+103,15987,117379,169,Kate Spade,5775,Highland Village,4055 Westheimer Road,Houston Tx,GENAREA,TX,0
+103,15977,107032,971,Van Cleef & Arpels,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+104,13084,115674,438,Saint Laurent,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+107,13773,116022,242,TUMI,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+107,13733,19970,298,Steve Madden,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+107,13674,77878,1701,New York & Company,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+107,13599,115938,2928,Typo,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+107,13592,77900,2080,Cotton On,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+107,13544,20090,267,Guess,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+107,13484,77900,2080,Cotton On,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+114,15628,20089,6,GUCCI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+114,15465,116828,198,Proenza Schouler,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+114,15454,117131,92,DE BEERS,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+114,15445,117127,118,Burberry,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+114,15055,116828,198,Proenza Schouler,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+114,8015,109510,118,Burberry,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+130,15524,19993,117,CHANEL,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+130,14102,19990,118,Burberry,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+130,14074,20214,91,MAC Cosmetics,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+130,8016,109510,118,Burberry,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+142,25108,124365,35613,Rails,8540,Montrose Collective,888 Westheimer Rd,Houston Tx,,TX,0
+146,15479,20167,80,CARTIER,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+148,15823,117324,98,LOUIS VUITTON,5861,NEIMAN MARCUS Galleria,2600 Post Oak Boulevard,Houston Tx,GENAREA,TX,0
+179,19641,120690,1444,Sur La Table,6696,River Oaks Shopping Center,1964 W Gray St,Houston Tx,GENAREA,TX,0
+179,19635,120685,248,Starbucks,0,,10501 earland Parkway,Houston Tx,,TX,0
+179,19630,120681,34749,RaceWay ,0,,12912 South Post Oak Rd.,Houston Tx,,TX,0
+179,19612,19970,298,Steve Madden,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,19607,120660,27099,Kolache Factory,0,,14129 Memoral Drive,Houston Tx,,TX,0
+179,19575,120634,248,Starbucks,0,,300 Merorial City Suite #745,Houston Tx,,TX,0
+179,19568,120627,290,FOREVER 21,0,,15000 Harvey Rd.,Houston Tx,,TX,0
+179,19567,117197,3242,Wendy's,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,19566,117198,4506,Potbelly Sandwich Shop,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,19565,120624,25505,Pick Up Stix,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,19563,120622,34733,Fastpark & Relax Parking Facility,0,,8202 Hansen Road,Houston Tx,,TX,0
+179,19562,120621,25309,Circle K,0,,12602 E. Freeway,Houston Tx,,TX,0
+179,19546,120605,34730,Joe V's,0,,7755 West Beltfort Avenue,Houston Tx,,TX,0
+179,19539,120598,248,Starbucks,0,,"11560 FM 1960 West, Suite 101",Houston Tx,,TX,0
+179,19510,120574,29297,Aldi,0,,9870 Louetta Road,Houston Tx,,TX,0
+179,19509,20071,760,Brooks Brothers,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,19464,120534,33747,Stripes,0,,702 Rankin Rd.,Houston Tx,,TX,0
+179,19458,99510,1693,Chico's,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+179,19456,100290,1706,White House|Black Market,6696,River Oaks Shopping Center,1964 W Gray St,Houston Tx,GENAREA,TX,0
+179,19454,99508,290,FOREVER 21,777,Willowbrook Mall,2000 Willowbrook Mall,Houston Tx,Houston,TX,0
+179,19452,120523,34703,Startbucks,0,,3017 N. Durham Drive.,Houston Tx,,TX,0
+179,19449,99516,26904,Academy Sports + Outdoors,0,,7600 Westheimer Rd,Houston Tx,Houston,TX,0
+179,19446,120517,1827,dressbarn,0,,1432 West Gray Ave. ,Houston Tx,,TX,0
+179,19445,100499,1827,dressbarn,6702,Northwest Crossing I,13101 Northwest Fwy,Houston Tx,GENAREA,TX,0
+179,19438,116576,2077,Men's Wearhouse,0,,6380 Rogerdale Rd,Houston Tx,Houston,TX,0
+179,19429,120411,4101,Office Depot,0,,6225 W by NW Blvd,Houston Tx,Houston,TX,0
+179,19416,120489,24308,Fresenius Medical Care ,0,,4810 E. Sam Houston Parkway North,Houston Tx,,TX,0
+179,19407,120480,248,Starbucks,0,,"9807 Katy Freeway, Suite 140",Houston Tx,,TX,0
+179,19404,116139,55,HARRY WINSTON,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+179,19402,106312,1444,Sur La Table,767,Baybrook Mall,500 Baybrook Mall Dr.,Houston Tx,,TX,0
+179,19401,106312,1444,Sur La Table,767,Baybrook Mall,500 Baybrook Mall Dr.,Houston Tx,,TX,0
+179,19397,106313,66,ZARA,767,Baybrook Mall,500 Baybrook Mall Dr.,Houston Tx,,TX,0
+179,19394,120468,3372,Five Below,0,,"11043 Westheimer Rd, Suite B",Houston Tx,,TX,0
+179,19393,120468,3372,Five Below,0,,"11043 Westheimer Rd, Suite B",Houston Tx,,TX,0
+179,19392,120466,33747,Stripes,0,,9735 Sheldon Rd. ,Houston Tx,,TX,0
+179,19385,120460,26903,O'Reilly Auto Parts,0,,Tidwell & Mesa,Houston Tx,,TX,0
+179,19381,120456,33652,Ray's Real Pit BBQ,0,,2800 N. Terminal Rd. Terminal B,Houston Tx,,TX,0
+179,19376,116139,55,HARRY WINSTON,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+179,19374,120449,34690,Sam's Nail Supply,0,,10796 - B Bellaire,Houston Tx,,TX,0
+179,19333,120423,33747,Stripes,0,,7677 Gessner Rd,Houston Tx,Houston,TX,0
+179,19329,120419,27099,Kolache Factory,0,,811 Louisiana St,Houston  Tx,Houston ,TX,0
+179,19328,120419,27099,Kolache Factory,0,,811 Louisiana St,Houston  Tx,Houston ,TX,0
+179,19327,109661,248,Starbucks,0,,5820 W Sam Houston Pkwy S,Houston Tx,Houston,TX,0
+179,19322,116576,2077,Men's Wearhouse,0,,6380 Rogerdale Rd,Houston Tx,Houston,TX,0
+179,19320,120411,4101,Office Depot,0,,6225 W by NW Blvd,Houston Tx,Houston,TX,0
+179,19228,115667,2750,Guitar Center,0,,8390 Westheimer Rd,Houston Tx,Houston,TX,0
+179,19225,116141,2634,Smashburger,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,19216,120329,4241,Jason's Deli,0,,12625 East FWY,Houston Tx,,TX,0
+179,19211,116568,33746,Corner Store,0,,805 FM 1960,Houston Tx,Houston,TX,0
+179,19210,116569,25309,Circle K,0,,17103 W Little York Rd,Houston Tx,Houston,TX,0
+179,19208,116572,33748,Stripes 5218,0,,14811 North Fwy,Houston Tx,Houston,TX,0
+179,19207,115660,66,ZARA,777,Willowbrook Mall,2000 Willowbrook Mall,Houston Tx,Houston,TX,0
+179,19195,116602,1872,Journeys Kidz,7379,Almeda Mall,12200 Gulf Fwy,Houston Tx,,TX,0
+179,19194,116602,1872,Journeys Kidz,7379,Almeda Mall,12200 Gulf Fwy,Houston Tx,,TX,0
+179,19191,117199,24308,Fresenius Medical Care ,0,,7011 Regency Square Blvd,Houston Tx,,TX,0
+179,19176,115906,33620,Ember Steakhouse,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,19174,120294,34635,Olio Panini - IAH,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,19109,116594,66,ZARA,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,15573,117199,24308,Fresenius Medical Care ,0,,7011 Regency Square Blvd,Houston Tx,,TX,0
+179,15572,117198,4506,Potbelly Sandwich Shop,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,15571,117197,3242,Wendy's,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,15565,117192,33889,Robins Jean,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,15559,19951,770,Johnston & Murphy,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,15554,117182,416,Warby Parker,7426,Heights Mercantile,645 Heights Blvd,Houston Tx,,TX,0
+179,15345,117066,3294,Visionworks,7379,Almeda Mall,12200 Gulf Fwy,Houston Tx,,TX,0
+179,14692,116602,1872,Journeys Kidz,7379,Almeda Mall,12200 Gulf Fwy,Houston Tx,,TX,0
+179,14683,116594,66,ZARA,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,14677,116590,11703,Petco,0,,12310 Farm to Market 1960 W,Houston Tx,,TX,0
+179,14651,116576,2077,Men's Wearhouse,0,,6380 Rogerdale Rd,Houston Tx,Houston,TX,0
+179,14645,116572,33748,Stripes 5218,0,,14811 North Fwy,Houston Tx,Houston,TX,0
+179,14641,116569,25309,Circle K,0,,17103 W Little York Rd,Houston Tx,Houston,TX,0
+179,14640,116568,33746,Corner Store,0,,805 FM 1960,Houston Tx,Houston,TX,0
+179,14011,116141,2634,Smashburger,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,14010,116140,33652,Ray's Real Pit BBQ,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,14009,116139,55,HARRY WINSTON,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+179,13526,115906,33620,Ember Steakhouse,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+179,13027,115660,66,ZARA,777,Willowbrook Mall,2000 Willowbrook Mall,Houston Tx,Houston,TX,0
+179,8100,109666,24308,Fresenius Medical Care ,0,,4600 East Sam Houston Pkwy S,Houston Tx,Houston,TX,0
+179,8094,109661,248,Starbucks,0,,5820 W Sam Houston Pkwy S,Houston Tx,Houston,TX,0
+179,5598,106313,66,ZARA,767,Baybrook Mall,500 Baybrook Mall Dr.,Houston Tx,,TX,0
+179,5597,106312,1444,Sur La Table,767,Baybrook Mall,500 Baybrook Mall Dr.,Houston Tx,,TX,0
+179,5373,20090,267,Guess,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,5332,77935,5183,TCBY Frozen Yogurt,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+179,5321,102026,1824,Shoe Palace,777,Willowbrook Mall,2000 Willowbrook Mall,Houston Tx,Houston,TX,0
+179,5297,102012,2077,Men's Wearhouse,6725,Briarcroft Shopping Center,5620 Westheimer Rd,Houston Tx,,TX,0
+179,5296,19976,1877,Vans,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,5266,100491,27177,New Orleans Chicken and Waffles,6758,Willowbrook Plaza,17355 Tomball Pky.,Houston Tx,GENAREA,TX,0
+179,5258,100242,27100,Yardhouse Restaurant,6692,Citycentre Plaza,800 Sorella Ct,Houston Tx,,TX,0
+179,5257,100241,27099,Kolache Factory,0,,5571 Hwy 6 N,Houston Tx,Houston,TX,0
+179,5256,100240,26951,Men's Wearhouse,0,,4946 Beechnut,Houston Tx,Houston,TX,0
+179,5222,20014,2485,L.K. Bennett,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,5220,20022,2,MIUMIU,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,5219,79772,1,PRADA,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+179,5181,99605,26948,Visionworks Optical,6772,Gulfgate Center Mall,500 Gulfgate Center,Houston Tx,GENAREA,TX,0
+179,5158,20323,1679,Champs Sports,777,Willowbrook Mall,2000 Willowbrook Mall,Houston Tx,Houston,TX,0
+179,5127,20014,2485,L.K. Bennett,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,5126,20090,267,Guess,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,5109,99571,4836,La Madeleine,6633,Parkway Villages Shopping Center,1510 Eldridge Pkwy,Houston Tx,,TX,0
+179,5083,79449,1884,Lucy,5775,Highland Village,4055 Westheimer Road,Houston Tx,GENAREA,TX,0
+179,5076,77931,248,Starbucks,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+179,5052,19970,298,Steve Madden,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,5043,99532,2077,Men's Wearhouse,0,,10485 W Bellfort St,Houston Tx,Houston,TX,0
+179,5032,100499,1827,dressbarn,6702,Northwest Crossing I,13101 Northwest Fwy,Houston Tx,GENAREA,TX,0
+179,5025,99516,26904,Academy Sports + Outdoors,0,,7600 Westheimer Rd,Houston Tx,Houston,TX,0
+179,5019,100290,1706,White House|Black Market,6696,River Oaks Shopping Center,1964 W Gray St,Houston Tx,GENAREA,TX,0
+179,5016,99510,1693,Chico's,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+179,5014,99508,290,FOREVER 21,777,Willowbrook Mall,2000 Willowbrook Mall,Houston Tx,Houston,TX,0
+179,4991,20188,768,Tourbillon,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+179,4987,99489,4836,La Madeleine,0,,2423 Katy Freeway,Houston Tx,Houston,TX,0
+179,4986,99889,26934,Snap Kitchen,6673,Houston Center,1200 McKinney St,Houston Tx,GENAREA,TX,0
+179,4979,99685,3041,Whole Foods Market,6669,Westchase Shopping Center,7601 Westheimer Rd.,Houston Tx,GENAREA,TX,0
+179,4976,99385,26903,O'Reilly Auto Parts,0,,12421 Tidwell Road,Houston Tx,Houston,TX,0
+179,4973,99382,3372,Five Below,6669,Westchase Shopping Center,7601 Westheimer Rd.,Houston Tx,GENAREA,TX,0
+179,1051,77940,1746,Helzberg Diamonds,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+179,1040,79100,290,FOREVER 21,5771,Houston Pavilions,1201 Main Street,Houston Tx,GENAREA,TX,0
+179,1022,77901,290,FOREVER 21,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+179,996,20014,2485,L.K. Bennett,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+198,15221,116973,33839,Churrascos,0,,9705 Westheimer Rd,Houston Tx,,TX,0
+198,15219,116971,33839,Churrascos,0,,947 Gessner Rd,Houston Tx,,TX,0
+203,1261,79782,2,MIUMIU,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+203,1260,79772,1,PRADA,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+227,15633,107029,80,CARTIER,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+234,1284,77859,5107,Foot Locker/House of Hoop,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+234,1279,77967,1656,Build-A-Bear Workshop,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+240,22973,20099,31,JIMMY CHOO,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+240,13217,115724,536,John Varvatos,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+241,1292,77967,1656,Build-A-Bear Workshop,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+241,1290,77859,5107,Foot Locker/House of Hoop,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+263,15613,20032,16,Tory Burch,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+263,14185,116240,33679,St. John Knits,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+344,15055,116828,198,Proenza Schouler,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+346,18793,119935,26905,DD's Discounts,0,,6830 Harrisburg Blvd,Houston Tx,Houston,TX,0
+403,2009,83723,23210,Jerry Built,0,,3501 W Holcombe Blvd,Houston Tx,,TX,0
+430,2107,84565,1993,OshKosh B'gosh,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+446,15433,107010,144,HERMES,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+463,4933,79782,2,MIUMIU,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+463,4888,79772,1,PRADA,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+463,4881,20263,1,PRADA,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+595,3359,19954,282,Kenneth Cole,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+757,15476,107018,95,DOLCE & GABBANA,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+773,13042,115667,2750,Guitar Center,0,,8390 Westheimer Rd,Houston Tx,Houston,TX,0
+806,14984,116780,21102,Cibo,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+837,5751,106491,28736,Rice University,0,,6100 Main St,Houston Tx,Houston,TX,0
+839,5794,79451,605,Anthropologie,5775,Highland Village,4055 Westheimer Road,Houston Tx,GENAREA,TX,0
+859,5958,106582,28794,MD Anderson Cancer Center,0,,1515 Holcombe Blvd ,Houston Tx,,TX,0
+871,6817,107013,431,Stella McCartney,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+878,16638,20248,169,Kate Spade,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+914,16203,117453,33819,b8ta,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+914,15405,117105,701,The Art of Shaving,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+955,16852,118225,34240,Aramark/Houston Texans NRG Stadium Club Level,0,,NRG Parkway,Houston Tx,,TX,0
+976,14006,116137,19777,John Hardy,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+984,6785,107019,224,ETRO,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+1016,14570,20038,430,Wolford,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+1016,14127,107013,431,Stella McCartney,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+1020,15633,107029,80,CARTIER,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+1099,7357,108087,29580,John Eagle Acura ,0,,"16015 Katy Fwy,",Houston Tx,Houston,TX,0
+1099,7350,108082,40,Lord & Taylor,5746,Memorial City Mall,303 Memorial City,Houston Tx,Houston,TX,0
+1122,7412,108186,1736,McDonald's,0,,11323 Fuqua St,Houston Tx,Houston,TX,0
+1157,16852,118225,34240,Aramark/Houston Texans NRG Stadium Club Level,0,,NRG Parkway,Houston Tx,,TX,0
+1249,7872,109108,29982,Kendall Neighborhood Library,0,,609 N. Eldridge Pkwy,Houston Tx,Houston,TX,0
+1250,7876,109111,23226,H-E-B,0,,5225 Buffalo Speedway,Houston Tx,Houston,TX,0
+1250,7875,109110,23226,H-E-B,0,,1801 E 51st St,Houston Tx,Houston,TX,0
+1251,7882,109116,29987,Azur Salon at West Ave,0,,2800 Kirby Dr #216,Houston Tx,Houston,TX,0
+1251,7881,109115,29986,Momentum BMW,0,,10002 Southwest Fwy,Houston Tx,Houston,TX,0
+1251,7880,109114,29985,FiveSeven Grille,0,,501 Crawford St,Houston Tx,Houston,TX,0
+1253,7886,109118,29989,Brown College,0,,9 Sunset Blvd.,Houston Tx,Houston,TX,0
+1253,7885,109117,29988,Solari Hospice Care,0,,9714 S Gessner Rd,Houston Tx,Houston,TX,0
+1280,7967,109472,30132,Sousan Med Spa,0,,3231 Audley St,Houston Tx,Houston,TX,0
+1333,15359,20224,7,Bottega Veneta,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+1469,8693,110715,30846,Patterson Elementary School,0,,5302 Allendale Rd,Houston Tx,Houston,TX,0
+1469,8692,110714,30845,Metropolitan CME Church,0,,8955 South Fwy,Houston Tx,Houston,TX,0
+1538,9422,112814,31479,Caliber Collision Centers,0,,6409 Richmond Ave,Houston Tx,Houston,TX,0
+1538,9319,112431,31479,Caliber Collision Centers,0,,6409 Richmond Ave,Houston Tx,Houston,TX,0
+1538,9316,20281,100,Apple Store,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+1588,9332,112431,31479,Caliber Collision Centers,0,,6409 Richmond Ave,Houston Tx,Houston,TX,0
+1590,9341,19932,75,Saks Fifth Avenue,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+1604,18793,119935,26905,DD's Discounts,0,,6830 Harrisburg Blvd,Houston Tx,Houston,TX,0
+1810,10622,100279,27104,Brooke Feather,6696,River Oaks Shopping Center,1964 W Gray St,Houston Tx,GENAREA,TX,0
+1810,10621,113936,21618,Mercantil Commercebank,0,,5897 San Felipe St,Houston Tx,Houston,TX,0
+1810,10619,113934,21618,Mercantil Commercebank,0,,10143 Louetta Rd,Houston Tx,Houston,TX,0
+1810,10614,107020,18,Moncler,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+1810,10613,107007,185,AKRIS,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+1819,10673,113973,32391,Urban Crave,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+1819,10672,113972,32390,Bluwire,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+1821,10681,107036,734,Diptyque,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+1825,16203,117453,33819,b8ta,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+1843,10878,114129,32482,Suburban Extended Stay ,0,,13125 FM 1960,Houston Tx,Houston,TX,0
+1866,11029,114228,32557,A.D. Players Theater,0,,2710 W Alabama St,Houston Tx,Houston,TX,0
+1866,11027,114226,32555,Chateau Domingue,0,,3615 W Alabama St,Houston Tx,Houston,TX,0
+1908,11427,114490,32693,Museum of Fine Arts,0,,1001 Bissonnet St,Houston Tx,Houston,TX,0
+1930,11626,114607,2357,The Capital Grille,6692,Citycentre Plaza,800 Sorella Ct,Houston Tx,,TX,0
+1941,11697,114655,32828,Jerry Built Homegrown Burgers,0,,3501 W Holcombe Blvd,Houston Tx,Houston,TX,0
+1967,11841,107015,128,CANALI,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+2001,15892,20166,12,Bulgari ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2055,12376,115164,33172,The Palm,0,,6100 Westheimer Rd,Houston Tx,Houston,TX,0
+2081,15113,116875,33827,The Webster,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2106,22916,122932,3986,Brahmin,6692,Citycentre Plaza,800 Sorella Ct,Houston Tx,,TX,0
+2106,12772,115458,33408,CAT CORA'S KITCHEN,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+2155,14533,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2216,14137,116202,34693,CVS Pharmacy,0,,3939 Bellaire Blvd,Houston Tx,Houston,TX,0
+2235,14137,116202,34693,CVS Pharmacy,0,,3939 Bellaire Blvd,Houston Tx,Houston,TX,0
+2298,16492,19974,237,TOD'S,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2315,14571,20038,430,Wolford,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2331,9605,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2373,23961,20270,59,SWAROVSKI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2623,15940,20224,7,Bottega Veneta,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2626,24882,123819,9,Dior ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2626,24263,123819,9,Dior ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2626,24262,79675,75,Saks Fifth Avenue,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+2626,24261,79675,75,Saks Fifth Avenue,5807,Saks Fifth Avenue Galleria Mall,5115 Westheimer Road,Houston Tx,GENAREA,TX,0
+2665,15941,20224,7,Bottega Veneta,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2676,15950,19990,118,Burberry,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2690,15983,107032,971,Van Cleef & Arpels,6818,River Oaks District,4444 Westheimer Road,Houston Tx,GENAREA,TX,0
+2692,15990,117379,169,Kate Spade,5775,Highland Village,4055 Westheimer Road,Houston Tx,GENAREA,TX,0
+2747,16054,20229,115,COACH,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+2780,16073,117396,2277,Restoration Hardware,5775,Highland Village,4055 Westheimer Road,Houston Tx,GENAREA,TX,0
+3092,16638,20248,169,Kate Spade,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+3126,16780,77897,284,American Eagle Outfitters,5746,Memorial City Mall,303 Memorial City,Houston Tx,,TX,0
+3126,16777,118059,34183,Emser Tile,0,,12850 Fuqua St,Houston Tx,,TX,0
+3211,23963,20270,59,SWAROVSKI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+3662,18758,119903,34561,La Portrait Boutique,0,,130 Vintage Park Blvd,Houston Tx,Houston,TX,0
+3783,23132,20099,31,JIMMY CHOO,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+3791,23965,20270,59,SWAROVSKI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+3939,20736,120624,25505,Pick Up Stix,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+3939,20735,117198,4506,Potbelly Sandwich Shop,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+3939,20734,117197,3242,Wendy's,7071,George Bush Intercontinental Airport ,2800 N Terminal Rd,Houston Tx,Houston,TX,0
+3940,20737,120621,25309,Circle K,0,,12602 E. Freeway,Houston Tx,,TX,0
+3943,20744,120574,29297,Aldi,0,,9870 Louetta Road,Houston Tx,,TX,0
+4291,23097,20087,11,Versace,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+4753,23962,20270,59,SWAROVSKI,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
+6235,23993,123619,35342,Coterie,0,,737 Preston St.,Houston Tx,Houston,TX,0
+11028,25081,20088,96,GIORGIO ARMANI ,974,The Galleria ,5085 Westheimer Rd,Houston Tx,Houston,TX,0
