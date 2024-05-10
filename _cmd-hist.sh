@@ -24,6 +24,11 @@
 # Brand
 # Mall
 
+# #################################################################################
+# examples of calls:
+# http://localhost:3000/search/State/New%20York
+# http://localhost:3000/search/City/Houston
+
 By Type
     Architecture & Design (1)
 By City
