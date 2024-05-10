@@ -122,3 +122,21 @@ Please modify the last response to consider that vendor_name and search_type may
 {'cid': '55', 'pid': '18144', 'lid': '119381', 'cgid': '3', 'cgname': "Women's Apparel"}
 
 category.lid <-----> mall.lid
+
+
+# You are using Node.js 18.0.0. For Next.js, Node.js version >= v18.17.0 is required. Please update Node.js.
+# Check if Node.js version is less than v18.17.0
+if [[ "$(node -v)" < "v18.17.0" ]]; then
+  # Install Node Version Manager (NVM)
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+
+  # Load NVM
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+  # Install Node.js v18.17.0
+  nvm install v18.17.0
+
+  # Use Node.js v18.17.0
+  nvm use v18.17.0
+fi
