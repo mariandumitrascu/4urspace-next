@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="22px" viewBox="0 0 25 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Navbar/Bid/Active</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="law" transform="translate(0.583221, 0.000000)" stroke="#00A7E2">
+            <path d="M9.63636987,3.82892862 L20.6363699,3.82892862 C21.1886546,3.82892862 21.6363699,4.27664387 21.6363699,4.82892862 L21.6363699,8.82892862 C21.6363699,9.38121337 21.1886546,9.82892862 20.6363699,9.82892862 L9.63636987,9.82892862 C9.08408512,9.82892862 8.63636987,9.38121337 8.63636987,8.82892862 L8.63636987,4.82892862 C8.63636987,4.27664387 9.08408512,3.82892862 9.63636987,3.82892862 Z" id="Rectangle" stroke-width="0.99999041" fill="#E5F6FC" transform="translate(15.136370, 6.828929) rotate(-45.000000) translate(-15.136370, -6.828929) "></path>
+            <path d="M2.5,21.5 L2.5,17.5 C2.5,16.9477153 2.94771525,16.5 3.5,16.5 L13.5,16.5 C14.0522847,16.5 14.5,16.9477153 14.5,17.5 L14.5,21.5 L14.5,21.5" id="Path" fill="#39f"></path>
+            <line x1="0.5" y1="21.5" x2="16.5" y2="21.5" id="Path"></line>
+            <line x1="17.5" y1="9.5" x2="23.5" y2="15.5" id="Path"></line>
+        </g>
+    </g>
+</svg>

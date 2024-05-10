@@ -28,7 +28,7 @@ export default function RootLayout({
           <Header />
           <div className="container">
             <Marketplace />
-            <SearchResult />
+            {children}
           </div>
         </div>
       </body>

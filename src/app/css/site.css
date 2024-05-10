@@ -851,7 +851,7 @@ h1.text-strong {
 }
 
 .erate-star li {
-    background: transparent url(/assets/images/erate-star.png) no-repeat 50% 0;
+    background: transparent url(/images/erate-star.png) no-repeat 50% 0;
     min-width: 0px !important;
     display: inline-block !important;
     height: 30px !important;
