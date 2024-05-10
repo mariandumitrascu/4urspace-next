@@ -1,0 +1,826 @@
+con,cid,cn,cc
+Albania,2,Tirana,1
+Andorra,5,Andorra la Vella,1
+Andorra,5,Escaldes-Engordany,1
+Armenia,11,Yerevan,1
+Australia,13,Chadstone,1
+Australia,13,Melbourne,4
+Australia,13,Sydney,3
+Austria,14,Graz,2
+Austria,14,Himmelreich,2
+Austria,14,Innsbruck,1
+Austria,14,Kitzbühel,2
+Austria,14,Klagenfurt am Wörthersee,1
+Austria,14,Linz,1
+Austria,14,Parndorf,3
+Austria,14,Pasching,1
+Austria,14,Salzburg,2
+Austria,14,Schwechat,1
+Austria,14,Seiersberg,2
+Austria,14,Vienna,1
+Austria,14,Villach,1
+Austria,14,WIEN,9
+Azerbaijan,15,Almaty,1
+Azerbaijan,15,Baku,2
+Bahrain,17,Manama,3
+Belarus,20,Minsk,1
+Belgium,21,Antwerpen,5
+Belgium,21,Anversa,1
+Belgium,21,Bruxelles,10
+Belgium,21,Gent,1
+Belgium,21,Knokke,1
+Belgium,21,Knokke-Heist,4
+Belgium,21,Kortrijk,1
+Belgium,21,Maasmechelen,4
+Belgium,21,Waregem,1
+Bosnia And Herzegovina,27,Sarajevo,1
+Bosnia And Herzegovina,27,Tuzla,1
+Brazil,30,Sao Paulo,3
+Bulgaria,33,Burgas,1
+Bulgaria,33,Sofia,2
+Canada,38,Brampton,1
+Canada,38,Burlington,1
+Canada,38,Burnaby,3
+Canada,38,Caledon Village,1
+Canada,38,Calgary,10
+Canada,38,Delta,1
+Canada,38,Dorval,1
+Canada,38,Edmonton,5
+Canada,38,Etobicoke,8
+Canada,38,Fort McMurray,1
+Canada,38,Fort St John,1
+Canada,38,Halifax,1
+Canada,38,Halton Hills,13
+Canada,38,Hamilton,2
+Canada,38,Kelowna,1
+Canada,38,Kitimat,1
+Canada,38,Langley,1
+Canada,38,Lasalle,1
+Canada,38,Laval,2
+Canada,38,Lethbridge,1
+Canada,38,Markham,1
+Canada,38,Mississauga,4
+Canada,38,Montreal,12
+Canada,38,New Westminster,1
+Canada,38,Niagara-on-the-Lake,2
+Canada,38,North Vancouver,1
+Canada,38,North York,5
+Canada,38,Oakville,2
+Canada,38,Oshawa,2
+Canada,38,Ottawa,1
+Canada,38,Pointe-Claire,1
+Canada,38,Port Coquitlam,1
+Canada,38,Port Perry,1
+Canada,38,Québec,3
+Canada,38,Richmond,4
+Canada,38,Richmond Hill,2
+Canada,38,Saint-Bruno-de-Montarville,1
+Canada,38,Scarborough,1
+Canada,38,Surrey,1
+Canada,38,Toronto,36
+Canada,38,Tsawwassen,1
+Canada,38,Vancouver,26
+Canada,38,Waterdown,1
+Canada,38,Waterloo,1
+Canada,38,West Vancouver,1
+Canada,38,Whitby,1
+Canada,38,Whitecourt,1
+Canada,38,Windsor,1
+Canada,38,Winnipeg,1
+Canada,38,Woodbridge,1
+Cayman Islands,40,George Town,1
+China,44,Beijing,5
+China,44,Changsha,1
+China,44,Chengdu,2
+China,44,Chongqing,1
+China,44,Fuzhou,1
+China,44,Guangzhou,4
+China,44,Hangzhou,2
+China,44,Kowloon Tong,1
+China,44,Nanjing,1
+China,44,Qingdao,1
+China,44,Shanghai,8
+China,44,Shenzhen,3
+China,44,Xi'an,1
+Colombia,47,Bogota,1
+Croatia,54,Opatija,2
+Croatia,54,Rijeka,1
+Croatia,54,Sibenik,1
+Croatia,54,Split,1
+Croatia,54,Stari Grad,1
+Croatia,54,Zagreb,2
+Cyprus,56,Limassol,2
+Cyprus,56,Nicosia,1
+Czech Republic,57,Prague,8
+Denmark,58,Copenaghen,1
+Denmark,58,Copenhagen,9
+Dominican Republic,61,Punta Cana,1
+Ecuador,62,Guayaquil,1
+Estonia,67,Tallinn,1
+Finland,72,Helsinki,2
+Finland,72,Vaalimaa,1
+France,73,Anglet,1
+France,73,Annecy,1
+France,73,Aubagne,1
+France,73,Avignon,2
+France,73,Biarritz,1
+France,73,Boisseuil,1
+France,73,Bordeaux,3
+France,73,Bordeaux B&egrave;gles,1
+France,73,Bourg-Saint-Maurice,1
+France,73,Caen,1
+France,73,Cagnes-sur-Mer,1
+France,73,Cannes,11
+France,73,Carcassone,1
+France,73,Chamonix-Mont-Blanc,1
+France,73,Courbevoie,1
+France,73,Courchevel,3
+France,73,Deauville,1
+France,73,Fenouillet,2
+France,73,Gustavia,1
+France,73,Le Chesnay,3
+France,73,Les Clayes-sous-Bois,1
+France,73,Lieusaint,1
+France,73,Lille,5
+France,73,Lion,1
+France,73,Lyon,6
+France,73,Marseille,7
+France,73,Megeve,1
+France,73,Metz,1
+France,73,Miramas,4
+France,73,Monaco,1
+France,73,Mondeville,1
+France,73,Mulhouse,1
+France,73,Nantes,2
+France,73,Nice,13
+France,73,Parigi,1
+France,73,Paris,38
+France,73,Perpignan,1
+France,73,Puteaux,1
+France,73,Rennes,1
+France,73,Reunion,1
+France,73,Roissy-en-France,5
+France,73,Romans-sur-Isère,1
+France,73,Roppenheim,1
+France,73,Royan,1
+France,73,Saint-Denis,1
+France,73,Saint-Étienne,1
+France,73,Saint-Grégoire,1
+France,73,Saint-Laurent-du-Var,1
+France,73,Saint-Pierre-d'Irube,1
+France,73,Saint-Tropez,8
+France,73,Sarrola-Carcopino,1
+France,73,Serris,4
+France,73,Strasbourg,2
+France,73,Talange,1
+France,73,Tarbes,1
+France,73,Toulon,1
+France,73,Toulouse,1
+France,73,Villefontaine,1
+Germany,80,Amburgo,1
+Germany,80,Berlin,13
+Germany,80,Cologne,5
+Germany,80,D&uuml;sseldorf,1
+Germany,80,Düsseldorf,10
+Germany,80,Frankfurt,12
+Germany,80,Frankfurt am Main,1
+Germany,80,Hamburg,4
+Germany,80,Hannover,1
+Germany,80,Ingolstadt,3
+Germany,80,Karlsruhe,1
+Germany,80,Mannheim,1
+Germany,80,Metzingen,3
+Germany,80,Munich,18
+Germany,80,Nürnberg,2
+Germany,80,Papenburg,1
+Germany,80,Passau,1
+Germany,80,Stuttgart,3
+Germany,80,Titisee-Neustadt,1
+Germany,80,Weimar,1
+Germany,80,Wertheim,1
+Germany,80,Zweibrücken,1
+Ghana,81,Accra,1
+Greece,83,Athens,7
+Greece,83,Lamia,1
+Greece,83,Larisa,1
+Greece,83,Marousi,1
+Greece,83,Mikonos,1
+Hong Kong,96,Harbour City,2
+Hong Kong,96,Hong Kong,7
+Hungary,97,Budapest,5
+Iceland,98,Kopavogur,1
+Iceland,98,Reykjavík,2
+India,99,New Delhi,1
+Indonesia,100,Jakarta,2
+Indonesia,100,Jimbaran,1
+Indonesia,100,Kota Denpasar,1
+Indonesia,100,Kuta,1
+Indonesia,100,Ubud,1
+"Iran, Islamic Republic Of",101,Isfahan,1
+Ireland,103,Dublin,3
+Ireland,103,Kildare,1
+Israel,105,Haifa District,1
+Israel,105,Jerusalem,1
+Israel,105,Tel Aviv,2
+Italy,106,Afragola,1
+Italy,106,Agira,4
+Italy,106,Alassio,1
+Italy,106,Alba,1
+Italy,106,Albareto,1
+Italy,106,Alessandria,2
+Italy,106,Alte Ceccato,1
+Italy,106,Altopascio,1
+Italy,106,Amaro,1
+Italy,106,Anagni,1
+Italy,106,Ancona,2
+Italy,106,Antegnate,1
+Italy,106,Anzola Emilia,1
+Italy,106,Aosta,2
+Italy,106,"Appiano Sulla Strada del Vino
+",1
+Italy,106,Aprilia,1
+Italy,106,Arceto,1
+Italy,106,Arese,8
+Italy,106,Arezzo,1
+Italy,106,Argenta,1
+Italy,106,Ascoli Piceno,1
+Italy,106,Assago,4
+Italy,106,Avellino,1
+Italy,106,Avezzano,2
+Italy,106,Badia Polesine,1
+Italy,106,Baggiovara,1
+Italy,106,Bagnolo in Piano,1
+Italy,106,Bagnolo S. Vito,2
+Italy,106,Barberino di Mugello,2
+Italy,106,BARI,4
+Italy,106,Bassano del Grappa,1
+Italy,106,Bastiglia,1
+Italy,106,Bazzano,1
+Italy,106,Bellinzago Lombardo,1
+Italy,106,Belpasso,1
+Italy,106,Bergamo,6
+Italy,106,Bibbiano,1
+Italy,106,Biella,1
+Italy,106,Bologna,16
+Italy,106,Bolzano,4
+Italy,106,Bomporto,1
+Italy,106,Boretto,2
+Italy,106,Borgomanero,1
+Italy,106,Brà,1
+Italy,106,Brennero,2
+Italy,106,Brescia,4
+Italy,106,Brunico,1
+Italy,106,Budrio,1
+Italy,106,Busnago,3
+Italy,106,Bussolengo,1
+Italy,106,Ca' di Sola di Castelvetro,1
+Italy,106,Calamandrana,1
+Italy,106,Calderara di Reno,1
+Italy,106,Calerno di Sant'Ilario,1
+Italy,106,Camerano,1
+Italy,106,Campi Bisenzio,4
+Italy,106,Campobasso,2
+Italy,106,Campogalliano,1
+Italy,106,Canaro,1
+Italy,106,Cannobio,1
+Italy,106,Canossa,1
+Italy,106,Capri,6
+Italy,106,Capriolo,1
+Italy,106,Carmignano Di Brenta,1
+Italy,106,Carpaneto Piacentino,1
+Italy,106,Carpi,4
+Italy,106,Carugate,5
+Italy,106,Casale sul Sile,1
+Italy,106,Casamassima,1
+Italy,106,Casinalbo di Formigine,1
+Italy,106,Casnate Con Bernate,1
+Italy,106,Castel Guelfo,1
+Italy,106,Castel Guelfo di Bologna,2
+Italy,106,Castel Maggiore,1
+Italy,106,Castel Romano,7
+Italy,106,Castel San Pietro Terme,1
+Italy,106,Castelfranco Emilia,1
+Italy,106,Castellarano,1
+Italy,106,Castellina di Soragna,1
+Italy,106,Castello D'Argile,1
+Italy,106,Castello di Serrvalle,1
+Italy,106,Castelnuovo Rangone,1
+Italy,106,Castelvetro di Modena,1
+Italy,106,Castenaso,1
+Italy,106,Castenuovo Monti,1
+Italy,106,Castenuovo Sotto,1
+Italy,106,Castione Andevenno,1
+Italy,106,Catania,8
+Italy,106,Catanzaro,3
+Italy,106,Cavezzo,1
+Italy,106,Cavola di Toano,1
+Italy,106,Cavriago,1
+Italy,106,Cento,1
+Italy,106,Cesano Boscone,2
+Italy,106,Cesena,1
+Italy,106,Cesenatico,1
+Italy,106,Chiavari,1
+Italy,106,Chieti,1
+Italy,106,Chivasso,1
+Italy,106,Cinisello Balsamo,1
+Italy,106,Città Giardino,1
+Italy,106,Città Sant’Angelo,1
+Italy,106,Collecchio,1
+Italy,106,Collegno,1
+Italy,106,Como,7
+Italy,106,Concordia s/S,1
+Italy,106,Concordia Sulla Secchia,1
+Italy,106,Conegliano,1
+Italy,106,Corlo di Formigine,1
+Italy,106,Cornegliano Laudense,1
+Italy,106,Cornuda,1
+Italy,106,Correggio,1
+Italy,106,Cortina,1
+Italy,106,Cortina d'Ampezzo,2
+Italy,106,Cremona,2
+Italy,106,Crespellano,1
+Italy,106,Croce di Casalecchio,1
+Italy,106,Cuneo,1
+Italy,106,Curno,4
+Italy,106,Curtatone,1
+Italy,106,Desio,1
+Italy,106,Dosolo,1
+Italy,106,Erbusco (BS),1
+Italy,106,Fanano,1
+Italy,106,Fano,3
+Italy,106,Ferrara,5
+Italy,106,Fiano Romano,1
+Italy,106,Fidenza,7
+Italy,106,Figline Valdarno,1
+Italy,106,Finale Emilia,1
+Italy,106,Fiorano,1
+Italy,106,Fiorano Modenese,1
+Italy,106,Firenze,2
+Italy,106,Fiume Veneto,1
+Italy,106,Fiumicino,10
+Italy,106,Florence,20
+Italy,106,Fogliano,1
+Italy,106,Foiano della Chiana,2
+Italy,106,Foligno,1
+Italy,106,Forlì,4
+Italy,106,Formia,1
+Italy,106,Formigine,1
+Italy,106,Forte dei Marmi,9
+Italy,106,Frassinoro,1
+Italy,106,Frosinone,3
+Italy,106,Gallarate,3
+Italy,106,Genova,13
+Italy,106,Giussano,1
+Italy,106,Gorizia,1
+Italy,106,Gradara,1
+Italy,106,Granarolo,1
+Italy,106,Grosseto,1
+Italy,106,Grugliasco,5
+Italy,106,Gualtieri,1
+Italy,106,Guastalla,1
+Italy,106,Guidonia,1
+Italy,106,Imola,1
+Italy,106,Ivrea,2
+Italy,106,Joannis,1
+Italy,106,L'Aquila,1
+Italy,106,La Maddalena,1
+Italy,106,La Morra,2
+Italy,106,La Spezia,1
+Italy,106,Lagosanto,1
+Italy,106,Lainate,2
+Italy,106,Lama Mocogno,1
+Italy,106,Latina,2
+Italy,106,Lecce,4
+Italy,106,Leccio,2
+Italy,106,Leccio Reggello,2
+Italy,106,Lecco,3
+Italy,106,Legnago,2
+Italy,106,Lentate sul Seveso,1
+Italy,106,Lentigione,1
+Italy,106,Lido di Ostia,1
+Italy,106,Limbiate,4
+Italy,106,Limestre,1
+Italy,106,Limidi di Soliera,1
+Italy,106,Livigno,1
+Italy,106,Livorno,3
+Italy,106,Locate di Triulzi,4
+Italy,106,Loiano,1
+Italy,106,Lonato del Garda,3
+Italy,106,Lucca,3
+Italy,106,Macerata,1
+Italy,106,Maida,1
+Italy,106,Malcesine,1
+Italy,106,Mamiano,1
+Italy,106,Manerbio,1
+Italy,106,Mantova,3
+Italy,106,Maranello,1
+Italy,106,Marano Sul Panaro,1
+Italy,106,Marcianise,7
+Italy,106,Marcon,1
+Italy,106,Marradi,1
+Italy,106,Martignacco,2
+Italy,106,Massa Finalese,1
+Italy,106,Medesano,1
+Italy,106,Medicina,1
+Italy,106,Medolla,1
+Italy,106,Merate,1
+Italy,106,Mercatale,1
+Italy,106,Messina,1
+Italy,106,Mestrino,1
+Italy,106,Milan,38
+Italy,106,Milano,3
+Italy,106,Milano Marittima,1
+Italy,106,Milazzo,1
+Italy,106,Mirandola,1
+Italy,106,Misterbianco,1
+Italy,106,Modena,6
+Italy,106,Modica,2
+Italy,106,Moglia,1
+Italy,106,Mogliano Veneto,1
+Italy,106,Molfetta,3
+Italy,106,Molinella,1
+Italy,106,Moncalieri,1
+Italy,106,Monselice,1
+Italy,106,Montale Rangone,1
+Italy,106,Montebelluna,1
+Italy,106,Montecavolo,1
+Italy,106,Montecchio Emilia,1
+Italy,106,Montefiorno,1
+Italy,106,Montenero di bisaccia,1
+Italy,106,Monterenzio,1
+Italy,106,Montese,1
+Italy,106,Monza,5
+Italy,106,Muggia,1
+Italy,106,Mulino di Savignano s/P,1
+Italy,106,Naples,15
+Italy,106,Napoli,2
+Italy,106,Nembro,1
+Italy,106,Nichelino,2
+Italy,106,Noceto,1
+Italy,106,Nola,1
+Italy,106,Nonantola,1
+Italy,106,Novara,2
+Italy,106,Novellara,1
+Italy,106,Noventa di Piave,10
+Italy,106,Olmi,2
+Italy,106,Orbassano,1
+Italy,106,Orio al Serio,14
+Italy,106,Oristano,1
+Italy,106,Orzinuovi,1
+Italy,106,Osimo,1
+Italy,106,Osteria Grande - Castel San Pietro Terme,1
+Italy,106,Ozzano Emilia,1
+Italy,106,Paderno Dugnano,1
+Italy,106,Padova,13
+Italy,106,Palermo,7
+Italy,106,Parma,7
+Italy,106,Pavia,2
+Italy,106,Pavullo,1
+Italy,106,Pero,1
+Italy,106,Pesaro,3
+Italy,106,Peschiera Borromeo,1
+Italy,106,Piacenza,1
+Italy,106,Pianoro,1
+Italy,106,Piantedo,1
+Italy,106,Piediripa,2
+Italy,106,Pieve di Cento,1
+Italy,106,Pieve di Guastalla,1
+Italy,106,Pieve Fissiraga,1
+Italy,106,Pievepelago,1
+Italy,106,Pinerolo,1
+Italy,106,Pisa,3
+Italy,106,Pistoia,1
+Italy,106,Piumazzo,1
+Italy,106,Pogliano Milanese,1
+Italy,106,Pomezia,1
+Italy,106,Pompei,1
+Italy,106,Pomponesco,1
+Italy,106,Pontecagnano Faiano,1
+Italy,106,Porcia,1
+Italy,106,Porto Cervo,3
+Italy,106,Porto Mantovano,1
+Italy,106,Porto Sant'Elpidio,1
+Italy,106,Prato,3
+Italy,106,Prignano,1
+Italy,106,Quartucciu,1
+Italy,106,Rastignano,1
+Italy,106,Ravenna,6
+Italy,106,Recco,1
+Italy,106,Reggio Emilia,8
+Italy,106,Rescaldina,2
+Italy,106,Rho,2
+Italy,106,Riccione,6
+Italy,106,Rimini,4
+Italy,106,Riolunato,1
+Italy,106,Rocca Malatina,1
+Italy,106,Rodengo Saiano,3
+Italy,106,Roma,1
+Italy,106,Rome,24
+Italy,106,Roncadelle,4
+Italy,106,Rovigo,1
+Italy,106,Rozzano,3
+Italy,106,Rubiera,1
+Italy,106,Salerno,3
+Italy,106,Sambuceto,2
+Italy,106,San Cataldo,2
+Italy,106,San Cesario s/P,1
+Italy,106,San Cesario Sul Panaro,1
+Italy,106,San Felice Sul Panaro,1
+Italy,106,San Giorgio delle Pertiche,1
+Italy,106,San Giovanni In Marignano,1
+Italy,106,San Giovanni in Persiceto,1
+Italy,106,San Giovanni Lupatoto,1
+Italy,106,San Giovanni Valdarno,1
+Italy,106,San Giuliano Milanese,1
+Italy,106,San Lazzaro,1
+Italy,106,San Lazzaro di Savena,1
+Italy,106,San Martino Buonalbergo,1
+Italy,106,San Martino Siccomario,1
+Italy,106,San Matteo della Decima,1
+Italy,106,San Polo di Torrile,1
+Italy,106,San Possidonio,1
+Italy,106,San Prospero,1
+Italy,106,San Prospero s/S,1
+Italy,106,San Rocco al Porto,1
+Italy,106,San Ruffillo,1
+Italy,106,San Vitaliano,1
+Italy,106,San Vito al Tagliamento,1
+Italy,106,San Vito di Spilamberto,1
+Italy,106,Sanremo,4
+Italy,106,Sant'Agata Bolognese,1
+Italy,106,Sant'Antonio di Pavullo,1
+Italy,106,Sant'Arcangelo di Romagna,1
+Italy,106,Sant'Ilario d' Enza,1
+Italy,106,Sant'Ilario d'Enza,1
+Italy,106,Santa Viola,1
+Italy,106,Santa Vittoria,1
+Italy,106,Santarcangelo di Romagna,1
+Italy,106,Saronno,2
+Italy,106,Sasso Marconi,1
+Italy,106,Sassuolo,1
+Italy,106,Savignano s/P,1
+Italy,106,Savignano Sul Panaro,1
+Italy,106,Savignano Sul Rubicone,1
+Italy,106,Savona,1
+Italy,106,Scandiano,2
+Italy,106,Senigallia,1
+Italy,106,Seregno,1
+Italy,106,Seriate,1
+Italy,106,Serramazzoni,1
+Italy,106,Serravalle Scrivia,13
+Italy,106,Sesto Fiorentino,3
+Italy,106,Sesto San Giovanni,3
+Italy,106,Sestola,1
+Italy,106,Sestu,3
+Italy,106,Settimo ,1
+Italy,106,Settimo Torinese,6
+Italy,106,Siena,7
+Italy,106,Silvi,1
+Italy,106,Siracusa,2
+Italy,106,Solara di Bomporto,1
+Italy,106,Soliera,1
+Italy,106,Solignano Nuovo,1
+Italy,106,Sona,2
+Italy,106,Sorbara,1
+Italy,106,Sorrento,2
+Italy,106,Sozzigalli,1
+Italy,106,Spedaletto,1
+Italy,106,Spezzano,1
+Italy,106,Spezzano di Fiorano Modenese,1
+Italy,106,Spilamberto,1
+Italy,106,Sutrio,1
+Italy,106,Taggia,1
+Italy,106,Taormina,5
+Italy,106,Taranto,2
+Italy,106,Teramo,1
+Italy,106,Termoli,1
+Italy,106,Toano,1
+Italy,106,Torino,18
+Italy,106,Trento,2
+Italy,106,Treviso,2
+Italy,106,Trieste,2
+Italy,106,Triggiano,1
+Italy,106,Udine,4
+Italy,106,Valmontone,4
+Italy,106,Varese,3
+Italy,106,Vedelago,1
+Italy,106,Venezia,1
+Italy,106,Venice,21
+Italy,106,Verano Brianza,2
+Italy,106,Vergato,1
+Italy,106,Verona,18
+Italy,106,Viareggio,3
+Italy,106,Vicenza,2
+Italy,106,Vicolungo,7
+Italy,106,Vigarano Mainarda,1
+Italy,106,Vignola,1
+Italy,106,Villa Fontana di Medicina,1
+Italy,106,Villa Minozzo,1
+Italy,106,Villarotta,1
+Italy,106,Villesse,2
+Italy,106,Viterbo,1
+Italy,106,Zocca,1
+Italy,106,Zola Predosa,1
+Japan,108,Kyoto,1
+Japan,108,Osaka,1
+Japan,108,Tokyo,5
+Kazakhstan,111,Aktobe,1
+Kazakhstan,111,Almaty,3
+Kosovo,246,Prishtinë,1
+Kuwait,116,Kuwait City,5
+Latvia,119,Riga,2
+Lithuania,125,Kaunas,1
+Lithuania,125,Vilnius,2
+Luxembourg,126,Luxembourg,6
+Luxembourg,126,Remerschen,1
+Macao,127,Macau,4
+Malaysia,131,Johor,1
+Malaysia,131,Kuala Lumpur,5
+Malaysia,131,Petaling Jaya,1
+Malta,134,Birkirkara,1
+Malta,134,Hamrun,1
+Malta,134,Luqa,2
+Malta,134,Mellieha,1
+Malta,134,San ?iljan,1
+Malta,134,Valletta,1
+Mexico,140,Acapulco,1
+Mexico,140,Cancún,4
+Mexico,140,Cuernavaca,2
+Mexico,140,Guadalajara,4
+Mexico,140,Lerma,2
+Mexico,140,Mexico City,10
+Mexico,140,Monterrey,4
+Mexico,140,PACHUCA,1
+Mexico,140,Puebla,2
+Mexico,140,San Jose El Alto,3
+Mexico,140,Santiago de Querétaro,2
+Mexico,140,Tuxtla Gutiérrez,1
+"Moldova, Republic Of",142,Chișinău,1
+Monaco,143,Monaco,5
+Mongolia,144,Ulaanbaatar,2
+Montenegro,145,Podgorica,1
+Morocco,147,Casablanca,1
+Netherlands,153,Amstelveen,1
+Netherlands,153,Amsterdam,13
+Netherlands,153,Den Haag,3
+Netherlands,153,Eindhoven,2
+Netherlands,153,Haarlem,1
+Netherlands,153,Leidschendam,1
+Netherlands,153,Roermond,2
+Netherlands,153,Rotterdam,2
+Netherlands,153,Schiphol,3
+Netherlands,153,Veenendaal,1
+Norway,163,Oslo,7
+Norway,163,Stavanger,1
+Norway,163,Vestby,1
+Oman,164,Muscat,1
+Panama,168,Ciudad de Panama,1
+Panama,168,Panama,1
+Panama,168,Panama City,2
+Poland,174,?ód?,1
+Poland,174,Katowice,2
+Poland,174,Kraków,1
+Poland,174,Varsavia,1
+Poland,174,Warsaw,5
+Poland,174,Wroc?aw,1
+Portugal,175,Amadora,1
+Portugal,175,Covilhã,1
+Portugal,175,Lisbon,10
+Puerto Rico,176,Ponce,1
+Puerto Rico,176,San Juan,16
+Qatar,177,Ar-Rayyan,7
+Qatar,177,Doha,10
+Qatar,177,Lusail ,1
+Romania,179,Bucharest,1
+Russia,180,Elektrostal,1
+Russia,180,Kaliningrad,1
+Russia,180,Kazan,1
+Russia,180,Kiev,1
+Russia,180,Krasnodar,1
+Russia,180,Mosca,1
+Russia,180,Moscow,18
+Russia,180,Nizhny Novgorod,1
+Russia,180,Rostov-on-Don,1
+Russia,180,St. Petersburg,8
+Russia,180,Sverdlovskaya oblast',1
+Russia,180,Yekaterinburg,1
+Saudi Arabia,192,Jeddah,4
+Saudi Arabia,192,Riyadh,9
+Serbia,194,Belgrade,1
+Singapore,197,Singapore,4
+Slovakia,198,Bratislava,2
+Slovakia,198,Petržalka,1
+Slovenia,199,Ljubljana,2
+Slovenia,199,Portoroz,1
+South Africa,202,Cape Town,1
+South Africa,202,Johannesburg,2
+South Africa,202,Midrand,1
+South Africa,202,Sandton,1
+South Korea,115,Daegu,1
+South Korea,115,Gangnam,1
+South Korea,115,Gwanggyo,1
+South Korea,115,Jeju,1
+South Korea,115,Pangyo,1
+South Korea,115,Seoul,6
+South Korea,115,Sogong,1
+Spain,204,Albacete,1
+Spain,204,Andorra la Vella,1
+Spain,204,Barcellona,1
+Spain,204,Barcelona,18
+Spain,204,Bilbao,1
+Spain,204,Cáceres,1
+Spain,204,Chiclana de la Frontera,1
+Spain,204,Granada,2
+Spain,204,Ibiza,1
+Spain,204,Las Palmas,1
+Spain,204,Madrid,17
+Spain,204,Málaga,3
+Spain,204,Marbella,4
+Spain,204,Martos,1
+Spain,204,Matarò,2
+Spain,204,Motril,1
+Spain,204,Murcia,1
+Spain,204,Palma,2
+Spain,204,Palma De Mallorca,2
+Spain,204,San Sebastian,1
+Spain,204,Santa Cruz de Tenerife,3
+Spain,204,Santander,1
+Spain,204,Sevilla,2
+Spain,204,València,6
+Sweden,210,Beridarebanan,1
+Sweden,210,Göteborg,2
+Sweden,210,Malmö,1
+Sweden,210,Solna,3
+Sweden,210,Stockholm,2
+Switzerland,211,Ascona,1
+Switzerland,211,Basel,2
+Switzerland,211,Bern,2
+Switzerland,211,Chur,1
+Switzerland,211,Fribourg,1
+Switzerland,211,Geneva,7
+Switzerland,211,Lausanne,4
+Switzerland,211,Lucerne,3
+Switzerland,211,Lugano,2
+Switzerland,211,Mendrisio,1
+Switzerland,211,Spreitenbach,2
+Switzerland,211,St. Gallen,1
+Switzerland,211,St. Moritz,1
+Switzerland,211,Winterthur,1
+Switzerland,211,Zürich,11
+"Taiwan, Province Of China",213,Kaohsiung City,1
+"Taiwan, Province Of China",213,Taichung,1
+"Taiwan, Province Of China",213,Taipei,4
+Thailand,216,Bangkok,4
+Tunisia,222,Tunis,1
+Turkey,223,Ankara,2
+Turkey,223,Antalya,1
+Turkey,223,Istanbul,7
+Turkey,223,İzmir,2
+Ukraine,228,Dniepropetrovsk,1
+Ukraine,228,Dnipro,1
+Ukraine,228,Kiev,3
+United Arab Emirates,229,Abu Dhabi,5
+United Arab Emirates,229,Dubai,19
+United Arab Emirates,229,Kuwait,1
+United Arab Emirates,229,Sharjah,1
+United Kingdom,230,Aberdeen,2
+United Kingdom,230,Bath,1
+United Kingdom,230,Belfast,1
+United Kingdom,230,Bicester,6
+United Kingdom,230,Birmingham,1
+United Kingdom,230,Brierley Hill,1
+United Kingdom,230,Cambridge,1
+United Kingdom,230,Cardiff,2
+United Kingdom,230,Chelmsford,1
+United Kingdom,230,Cheltenham,2
+United Kingdom,230,Dartford,1
+United Kingdom,230,Dundee,1
+United Kingdom,230,Edinburgh,2
+United Kingdom,230,Ellesmere Port,2
+United Kingdom,230,Epsom,1
+United Kingdom,230,Gateshead,1
+United Kingdom,230,Gatwick,1
+United Kingdom,230,Glasgow,4
+United Kingdom,230,Grays,1
+United Kingdom,230,Guildford,1
+United Kingdom,230,Kingston upon Thames,1
+United Kingdom,230,Leeds,2
+United Kingdom,230,Liverpool,1
+United Kingdom,230,Livingston,1
+United Kingdom,230,London,36
+United Kingdom,230,Longford,5
+United Kingdom,230,Manchester,6
+United Kingdom,230,Milton Keynes,2
+United Kingdom,230,Newcastle,1
+United Kingdom,230,Newcastle upon Tyne,2
+United Kingdom,230,Norwich,1
+United Kingdom,230,Nottingham,1
+United Kingdom,230,Oxford,3
+United Kingdom,230,Portsmouth,1
+United Kingdom,230,Reading,1
+United Kingdom,230,Richmond,1
+United Kingdom,230,Sheffield,2
+United Kingdom,230,Sunderland,1
+United Kingdom,230,Warrington,1
+United Kingdom,230,Wirral,1
+Vietnam,238,Hanoi,1

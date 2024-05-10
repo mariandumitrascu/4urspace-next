@@ -96,3 +96,7 @@ Parameters that are now hardcoded, i want to replace them with url parameters. T
 Please modify the last response to consider that vendor_name and search_type may be specified in the url. If they are not in the url, then fallback on the hardcoded values.
 
 # http://localhost:3000/categorylist?vendor_name=Houston&search_type=City
+# a category
+{'cid': '55', 'pid': '18144', 'lid': '119381', 'cgid': '3', 'cgname': "Women's Apparel"}
+
+category.lid <-----> mall.lid

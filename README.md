@@ -1,7 +1,25 @@
-# Status from Marian:
+# Status from Marian
 
+Today: May 10:
+
+<!-- insert link to local md called data-analysis.md -->
+[Link to data-analysis jupyter notebook](data_analysis.ipynb)
+
+---
+
+Please take a look at this diagram.
+
+I think the major problem is DisplayFilter and the interaction between filter and vendors display.
+We can broke it down in small tasks. I can focus on DisplayVendors that will take as parameter a JSON of vendors that was produced by SearchFilter.
+
+![1715342992089](image/README/1715342992089.png)
+
+---
+
+May 9:
 
 I created a page for each api, in pages. They can be called like this:
+
 ```
 http://localhost:3000/citylist
 http://localhost:3000/vendorlist
@@ -10,21 +28,18 @@ http://localhost:3000/malllist
 ```
 
 Parameters are hard-coded at this moment, with the exception of 'categorylist', which is using URL parameters. I wanted to see how I would do that. It can be called like this:
+
 ```
 http://localhost:3000/categorylist?vendor_name=Houston&search_type=City
 ```
 
 If no url parameters then will fall-back on the hardcoded values.
 
-*** I had to use a proxy page for each of the api, otherwise had CORS problems. Proxy API are in `/src/pages/api`***
+***I had to use a proxy page for each of the api, otherwise had CORS problems. Proxy API are in `/src/pages/api`***
 
 I will continue after I wake up, with the operation that we talked about.
 
-
-
-
--------------------------------
-
+---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

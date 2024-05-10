@@ -1,0 +1,536 @@
+cid,pid,lid,cgid,cgname
+32,230,20263,3,Women's Apparel
+32,230,20263,4,Women's Accessory
+32,747,20089,3,Women's Apparel
+32,747,20089,2,Men's Apparel
+32,4167,20174,18,Jewelry & Watches
+32,6342,107002,3,Women's Apparel
+32,6342,107002,4,Women's Accessory
+32,6342,107002,2,Men's Apparel
+32,6342,107002,5,Men's Accessory
+32,6759,107002,3,Women's Apparel
+32,6759,107002,4,Women's Accessory
+32,6759,107002,2,Men's Apparel
+32,6759,107002,5,Men's Accessory
+32,6760,107009,3,Women's Apparel
+32,6784,107019,3,Women's Apparel
+32,6784,107019,2,Men's Apparel
+32,14006,116137,18,Jewelry & Watches
+32,14022,116148,11,Beauty & Spa
+32,14592,107019,3,Women's Apparel
+32,14592,107019,2,Men's Apparel
+32,16492,19974,3,Women's Apparel
+45,6439,92468,3,Women's Apparel
+45,6439,92468,4,Women's Accessory
+51,971,20020,3,Women's Apparel
+51,971,20020,4,Women's Accessory
+51,10994,20089,3,Women's Apparel
+51,10994,20089,2,Men's Apparel
+51,10996,20034,3,Women's Apparel
+51,10996,20034,4,Women's Accessory
+51,10997,114197,3,Women's Apparel
+51,10997,114197,4,Women's Accessory
+51,10997,114197,2,Men's Apparel
+51,10997,114197,5,Men's Accessory
+51,24986,20088,3,Women's Apparel
+51,24986,20088,4,Women's Accessory
+51,24986,20088,2,Men's Apparel
+51,24986,20088,5,Men's Accessory
+51,24987,20088,3,Women's Apparel
+51,24987,20088,4,Women's Accessory
+51,24987,20088,2,Men's Apparel
+51,24987,20088,5,Men's Accessory
+55,216,20089,3,Women's Apparel
+55,216,20089,2,Men's Apparel
+55,16124,20237,4,Women's Accessory
+55,18144,119381,3,Women's Apparel
+55,18144,119381,4,Women's Accessory
+55,18144,119381,2,Men's Apparel
+55,18144,119381,5,Men's Accessory
+55,23097,20087,3,Women's Apparel
+55,23097,20087,2,Men's Apparel
+55,24517,20034,3,Women's Apparel
+55,24517,20034,4,Women's Accessory
+55,25023,20088,3,Women's Apparel
+55,25023,20088,4,Women's Accessory
+55,25023,20088,2,Men's Apparel
+55,25023,20088,5,Men's Accessory
+55,25412,124590,3,Women's Apparel
+55,25412,124590,4,Women's Accessory
+57,7620,20089,3,Women's Apparel
+57,7620,20089,2,Men's Apparel
+58,9593,20087,3,Women's Apparel
+58,9593,20087,2,Men's Apparel
+58,14592,107019,3,Women's Apparel
+58,14592,107019,2,Men's Apparel
+60,16065,117394,3,Women's Apparel
+60,16065,117394,2,Men's Apparel
+61,9328,20252,2,Men's Apparel
+61,16124,20237,4,Women's Accessory
+61,24118,20087,3,Women's Apparel
+61,24118,20087,2,Men's Apparel
+66,3083,88458,14,Home & Furnishing
+66,3084,19965,6,Sport Apparel
+66,15205,116960,3,Women's Apparel
+66,16736,117769,3,Women's Apparel
+70,15359,20224,3,Women's Apparel
+70,15359,20224,4,Women's Accessory
+70,15359,20224,2,Men's Apparel
+70,15359,20224,5,Men's Accessory
+70,22973,20099,51,Shoes
+70,23132,20099,51,Shoes
+70,24724,124104,10,Food & Beverage
+76,14886,20229,4,Women's Accessory
+78,3923,20168,3,Women's Apparel
+78,3923,20168,4,Women's Accessory
+78,10561,107007,3,Women's Apparel
+78,10578,20074,3,Women's Apparel
+78,10578,20074,4,Women's Accessory
+78,10587,107036,11,Beauty & Spa
+78,10588,107020,3,Women's Apparel
+78,10588,107020,2,Men's Apparel
+78,10606,20168,3,Women's Apparel
+78,10606,20168,4,Women's Accessory
+78,13591,107007,3,Women's Apparel
+78,14886,20229,4,Women's Accessory
+78,24594,20252,2,Men's Apparel
+80,16541,117630,4,Women's Accessory
+80,16541,117630,5,Men's Accessory
+80,23789,123460,3,Women's Apparel
+81,25108,124365,14,Home & Furnishing
+83,413,20032,3,Women's Apparel
+83,14127,107013,3,Women's Apparel
+83,15362,117078,8,Electronics
+83,15433,107010,3,Women's Apparel
+83,15479,20167,18,Jewelry & Watches
+83,15524,19993,3,Women's Apparel
+83,15613,20032,3,Women's Apparel
+83,15823,117324,4,Women's Accessory
+91,4633,20224,3,Women's Apparel
+91,4633,20224,4,Women's Accessory
+91,4633,20224,2,Men's Apparel
+91,4633,20224,5,Men's Accessory
+91,4716,20185,18,Jewelry & Watches
+91,4717,20168,3,Women's Apparel
+91,4717,20168,4,Women's Accessory
+91,10812,114070,10,Food & Beverage
+91,10815,114073,10,Food & Beverage
+91,13363,115817,30,Fitness/Gym
+91,14184,116239,3,Women's Apparel
+91,14185,116240,3,Women's Apparel
+91,16065,117394,3,Women's Apparel
+91,16065,117394,2,Men's Apparel
+91,25023,20088,3,Women's Apparel
+91,25023,20088,4,Women's Accessory
+91,25023,20088,2,Men's Apparel
+91,25023,20088,5,Men's Accessory
+98,623,19990,2,Men's Apparel
+98,624,20179,18,Jewelry & Watches
+98,14074,20214,11,Beauty & Spa
+98,14102,19990,2,Men's Apparel
+98,14106,20179,18,Jewelry & Watches
+98,23789,123460,3,Women's Apparel
+100,14184,116239,3,Women's Apparel
+100,16080,117394,3,Women's Apparel
+100,16080,117394,2,Men's Apparel
+103,15977,107032,18,Jewelry & Watches
+103,15987,117379,3,Women's Apparel
+103,15987,117379,4,Women's Accessory
+104,13084,115674,4,Women's Accessory
+107,13484,77900,3,Women's Apparel
+107,13484,77900,2,Men's Apparel
+107,13544,20090,3,Women's Apparel
+107,13544,20090,4,Women's Accessory
+107,13544,20090,2,Men's Apparel
+107,13544,20090,5,Men's Accessory
+107,13592,77900,3,Women's Apparel
+107,13592,77900,2,Men's Apparel
+107,13599,115938,4,Women's Accessory
+107,13599,115938,5,Men's Accessory
+107,13599,115938,45,Gift Store
+107,13674,77878,3,Women's Apparel
+107,13733,19970,51,Shoes
+107,13773,116022,4,Women's Accessory
+107,13773,116022,5,Men's Accessory
+114,8015,109510,3,Women's Apparel
+114,15055,116828,3,Women's Apparel
+114,15445,117127,3,Women's Apparel
+114,15445,117127,4,Women's Accessory
+114,15454,117131,18,Jewelry & Watches
+114,15465,116828,3,Women's Apparel
+114,15628,20089,3,Women's Apparel
+114,15628,20089,2,Men's Apparel
+130,8016,109510,3,Women's Apparel
+130,14074,20214,11,Beauty & Spa
+130,14102,19990,2,Men's Apparel
+130,15524,19993,3,Women's Apparel
+142,25108,124365,14,Home & Furnishing
+146,15479,20167,18,Jewelry & Watches
+147,18144,119381,3,Women's Apparel
+147,18144,119381,4,Women's Accessory
+147,18144,119381,2,Men's Apparel
+147,18144,119381,5,Men's Accessory
+148,15823,117324,4,Women's Accessory
+179,996,20014,3,Women's Apparel
+179,1022,77901,3,Women's Apparel
+179,1022,77901,2,Men's Apparel
+179,1040,79100,3,Women's Apparel
+179,1040,79100,2,Men's Apparel
+179,1051,77940,18,Jewelry & Watches
+179,4973,99382,45,Gift Store
+179,4976,99385,44,Auto/Motorcycle Dealer
+179,4979,99685,41,Grocery/Supermarket
+179,4986,99889,10,Food & Beverage
+179,4987,99489,10,Food & Beverage
+179,4991,20188,18,Jewelry & Watches
+179,5014,99508,3,Women's Apparel
+179,5014,99508,2,Men's Apparel
+179,5016,99510,3,Women's Apparel
+179,5019,100290,3,Women's Apparel
+179,5025,99516,16,Sports Accessories
+179,5025,99516,6,Sport Apparel
+179,5032,100499,3,Women's Apparel
+179,5043,99532,2,Men's Apparel
+179,5043,99532,5,Men's Accessory
+179,5052,19970,51,Shoes
+179,5076,77931,10,Food & Beverage
+179,5083,79449,3,Women's Apparel
+179,5109,99571,10,Food & Beverage
+179,5126,20090,3,Women's Apparel
+179,5126,20090,4,Women's Accessory
+179,5126,20090,2,Men's Apparel
+179,5126,20090,5,Men's Accessory
+179,5127,20014,3,Women's Apparel
+179,5158,20323,3,Women's Apparel
+179,5158,20323,51,Shoes
+179,5158,20323,2,Men's Apparel
+179,5181,99605,12,Eyeware
+179,5219,79772,4,Women's Accessory
+179,5220,20022,3,Women's Apparel
+179,5222,20014,3,Women's Apparel
+179,5256,100240,2,Men's Apparel
+179,5256,100240,5,Men's Accessory
+179,5257,100241,10,Food & Beverage
+179,5258,100242,10,Food & Beverage
+179,5266,100491,10,Food & Beverage
+179,5296,19976,3,Women's Apparel
+179,5296,19976,2,Men's Apparel
+179,5297,102012,2,Men's Apparel
+179,5297,102012,5,Men's Accessory
+179,5321,102026,51,Shoes
+179,5332,77935,10,Food & Beverage
+179,5373,20090,3,Women's Apparel
+179,5373,20090,4,Women's Accessory
+179,5373,20090,2,Men's Apparel
+179,5373,20090,5,Men's Accessory
+179,5597,106312,14,Home & Furnishing
+179,5598,106313,3,Women's Apparel
+179,5598,106313,2,Men's Apparel
+179,8094,109661,10,Food & Beverage
+179,8100,109666,33,Medical Facility
+179,13027,115660,3,Women's Apparel
+179,13027,115660,2,Men's Apparel
+179,13526,115906,10,Food & Beverage
+179,14009,116139,18,Jewelry & Watches
+179,14010,116140,10,Food & Beverage
+179,14011,116141,10,Food & Beverage
+179,14640,116568,67,Convenience Store
+179,14641,116569,67,Convenience Store
+179,14645,116572,46,Gas Station
+179,14651,116576,50,Showroom
+179,14677,116590,15,Pets
+179,14683,116594,3,Women's Apparel
+179,14683,116594,2,Men's Apparel
+179,14683,116594,1,Children's Apparel
+179,14692,116602,51,Shoes
+179,15345,117066,12,Eyeware
+179,15554,117182,12,Eyeware
+179,15559,19951,51,Shoes
+179,15565,117192,3,Women's Apparel
+179,15571,117197,10,Food & Beverage
+179,15572,117198,10,Food & Beverage
+179,15573,117199,33,Medical Facility
+179,19109,116594,3,Women's Apparel
+179,19109,116594,2,Men's Apparel
+179,19109,116594,1,Children's Apparel
+179,19174,120294,10,Food & Beverage
+179,19176,115906,10,Food & Beverage
+179,19191,117199,33,Medical Facility
+179,19194,116602,51,Shoes
+179,19195,116602,51,Shoes
+179,19207,115660,3,Women's Apparel
+179,19207,115660,2,Men's Apparel
+179,19208,116572,46,Gas Station
+179,19210,116569,67,Convenience Store
+179,19211,116568,67,Convenience Store
+179,19216,120329,10,Food & Beverage
+179,19225,116141,10,Food & Beverage
+179,19228,115667,9,Music
+179,19228,115667,8,Electronics
+179,19320,120411,32,Printing/Copy/Postal
+179,19322,116576,50,Showroom
+179,19327,109661,10,Food & Beverage
+179,19328,120419,10,Food & Beverage
+179,19329,120419,10,Food & Beverage
+179,19333,120423,10,Food & Beverage
+179,19374,120449,11,Beauty & Spa
+179,19376,116139,18,Jewelry & Watches
+179,19381,120456,10,Food & Beverage
+179,19385,120460,44,Auto/Motorcycle Dealer
+179,19392,120466,67,Convenience Store
+179,19393,120468,10,Food & Beverage
+179,19394,120468,10,Food & Beverage
+179,19397,106313,3,Women's Apparel
+179,19397,106313,2,Men's Apparel
+179,19401,106312,14,Home & Furnishing
+179,19402,106312,14,Home & Furnishing
+179,19404,116139,18,Jewelry & Watches
+179,19407,120480,10,Food & Beverage
+179,19416,120489,33,Medical Facility
+179,19429,120411,32,Printing/Copy/Postal
+179,19438,116576,50,Showroom
+179,19445,100499,3,Women's Apparel
+179,19446,120517,3,Women's Apparel
+179,19449,99516,16,Sports Accessories
+179,19449,99516,6,Sport Apparel
+179,19452,120523,10,Food & Beverage
+179,19454,99508,3,Women's Apparel
+179,19454,99508,2,Men's Apparel
+179,19456,100290,3,Women's Apparel
+179,19458,99510,3,Women's Apparel
+179,19464,120534,67,Convenience Store
+179,19509,20071,2,Men's Apparel
+179,19509,20071,5,Men's Accessory
+179,19510,120574,41,Grocery/Supermarket
+179,19539,120598,10,Food & Beverage
+179,19546,120605,41,Grocery/Supermarket
+179,19562,120621,67,Convenience Store
+179,19563,120622,20,Parking
+179,19565,120624,10,Food & Beverage
+179,19566,117198,10,Food & Beverage
+179,19567,117197,10,Food & Beverage
+179,19568,120627,3,Women's Apparel
+179,19568,120627,2,Men's Apparel
+179,19575,120634,10,Food & Beverage
+179,19607,120660,10,Food & Beverage
+179,19612,19970,51,Shoes
+179,19630,120681,46,Gas Station
+179,19635,120685,10,Food & Beverage
+179,19641,120690,14,Home & Furnishing
+198,15219,116971,10,Food & Beverage
+198,15221,116973,10,Food & Beverage
+203,1260,79772,4,Women's Accessory
+203,1261,79782,4,Women's Accessory
+225,16698,20263,3,Women's Apparel
+225,16698,20263,4,Women's Accessory
+225,24263,123819,3,Women's Apparel
+225,24263,123819,4,Women's Accessory
+225,24882,123819,3,Women's Apparel
+225,24882,123819,4,Women's Accessory
+227,15633,107029,18,Jewelry & Watches
+234,1279,77967,17,Toys & Games
+234,1284,77859,51,Shoes
+240,13217,115724,3,Women's Apparel
+240,13217,115724,2,Men's Apparel
+240,22973,20099,51,Shoes
+241,1290,77859,51,Shoes
+241,1292,77967,17,Toys & Games
+263,14185,116240,3,Women's Apparel
+263,15613,20032,3,Women's Apparel
+344,15055,116828,3,Women's Apparel
+346,18793,119935,67,Convenience Store
+403,2009,83723,10,Food & Beverage
+430,2107,84565,1,Children's Apparel
+446,15433,107010,3,Women's Apparel
+463,4881,20263,3,Women's Apparel
+463,4881,20263,4,Women's Accessory
+463,4888,79772,4,Women's Accessory
+463,4933,79782,4,Women's Accessory
+516,13125,107002,3,Women's Apparel
+516,13125,107002,4,Women's Accessory
+516,13125,107002,2,Men's Apparel
+516,13125,107002,5,Men's Accessory
+595,3359,19954,3,Women's Apparel
+595,3359,19954,4,Women's Accessory
+595,3359,19954,2,Men's Apparel
+595,3359,19954,5,Men's Accessory
+750,18022,119280,50,Showroom
+757,15476,107018,3,Women's Apparel
+757,15476,107018,2,Men's Apparel
+773,13042,115667,9,Music
+773,13042,115667,8,Electronics
+806,14984,116780,10,Food & Beverage
+810,15892,20166,18,Jewelry & Watches
+810,24742,20087,3,Women's Apparel
+810,24742,20087,2,Men's Apparel
+837,5751,106491,38,School
+839,5794,79451,3,Women's Apparel
+859,5958,106582,53,Hospital
+871,6817,107013,3,Women's Apparel
+878,16638,20248,3,Women's Apparel
+878,16638,20248,4,Women's Accessory
+914,15405,117105,11,Beauty & Spa
+914,16203,117453,8,Electronics
+937,7215,107922,3,Women's Apparel
+937,7215,107922,4,Women's Accessory
+937,7215,107922,2,Men's Apparel
+937,7215,107922,5,Men's Accessory
+937,7228,107009,3,Women's Apparel
+937,15308,20224,3,Women's Apparel
+937,15308,20224,4,Women's Accessory
+937,15308,20224,2,Men's Apparel
+937,15308,20224,5,Men's Accessory
+937,15476,107018,3,Women's Apparel
+937,15476,107018,2,Men's Apparel
+955,16852,118225,10,Food & Beverage
+976,14006,116137,18,Jewelry & Watches
+984,6785,107019,3,Women's Apparel
+984,6785,107019,2,Men's Apparel
+1016,14127,107013,3,Women's Apparel
+1016,14570,20038,3,Women's Apparel
+1020,15633,107029,18,Jewelry & Watches
+1099,7350,108082,7,Department Store/Mall
+1099,7357,108087,44,Auto/Motorcycle Dealer
+1122,7412,108186,10,Food & Beverage
+1157,16852,118225,10,Food & Beverage
+1249,7872,109108,61,Library
+1250,7875,109110,41,Grocery/Supermarket
+1250,7875,109110,10,Food & Beverage
+1250,7876,109111,41,Grocery/Supermarket
+1250,7876,109111,10,Food & Beverage
+1251,7880,109114,10,Food & Beverage
+1251,7881,109115,44,Auto/Motorcycle Dealer
+1251,7882,109116,11,Beauty & Spa
+1253,7885,109117,33,Medical Facility
+1253,7886,109118,38,School
+1280,7967,109472,11,Beauty & Spa
+1333,15359,20224,3,Women's Apparel
+1333,15359,20224,4,Women's Accessory
+1333,15359,20224,2,Men's Apparel
+1333,15359,20224,5,Men's Accessory
+1469,8692,110714,40,House of Worship
+1469,8693,110715,38,School
+1487,9327,20252,2,Men's Apparel
+1487,13054,115674,4,Women's Accessory
+1487,25316,115674,4,Women's Accessory
+1538,9316,20281,8,Electronics
+1538,9319,112431,44,Auto/Motorcycle Dealer
+1538,9422,112814,44,Auto/Motorcycle Dealer
+1588,9332,112431,44,Auto/Motorcycle Dealer
+1590,9341,19932,7,Department Store/Mall
+1604,18793,119935,67,Convenience Store
+1810,10613,107007,3,Women's Apparel
+1810,10614,107020,3,Women's Apparel
+1810,10614,107020,2,Men's Apparel
+1810,10619,113934,23,Office
+1810,10621,113936,23,Office
+1810,10622,100279,3,Women's Apparel
+1819,10672,113972,8,Electronics
+1819,10673,113973,45,Gift Store
+1821,10681,107036,11,Beauty & Spa
+1825,16203,117453,8,Electronics
+1843,10878,114129,25,Hotel
+1866,11027,114226,34,Thrift Sore/Antiques
+1866,11029,114228,26,Club/Theater
+1908,11427,114490,24,Museum
+1930,11626,114607,10,Food & Beverage
+1941,11697,114655,10,Food & Beverage
+1967,11841,107015,2,Men's Apparel
+2001,15892,20166,18,Jewelry & Watches
+2055,12376,115164,10,Food & Beverage
+2081,15113,116875,3,Women's Apparel
+2081,15113,116875,2,Men's Apparel
+2106,12772,115458,10,Food & Beverage
+2106,22916,122932,4,Women's Accessory
+2129,16231,20089,3,Women's Apparel
+2129,16231,20089,2,Men's Apparel
+2150,25193,123819,3,Women's Apparel
+2150,25193,123819,4,Women's Accessory
+2155,14533,20087,3,Women's Apparel
+2155,14533,20087,2,Men's Apparel
+2163,17663,118961,18,Jewelry & Watches
+2163,17685,118983,3,Women's Apparel
+2163,17686,118984,3,Women's Apparel
+2163,23964,20270,18,Jewelry & Watches
+2216,14137,116202,13,Pharmacy
+2235,14137,116202,13,Pharmacy
+2288,24119,20087,3,Women's Apparel
+2288,24119,20087,2,Men's Apparel
+2288,24297,123835,3,Women's Apparel
+2288,24297,123835,4,Women's Accessory
+2295,14533,20087,3,Women's Apparel
+2295,14533,20087,2,Men's Apparel
+2298,16492,19974,3,Women's Apparel
+2315,14571,20038,3,Women's Apparel
+2331,9605,20087,3,Women's Apparel
+2331,9605,20087,2,Men's Apparel
+2373,23961,20270,18,Jewelry & Watches
+2623,15940,20224,3,Women's Apparel
+2623,15940,20224,4,Women's Accessory
+2623,15940,20224,2,Men's Apparel
+2623,15940,20224,5,Men's Accessory
+2626,24261,79675,7,Department Store/Mall
+2626,24262,79675,7,Department Store/Mall
+2626,24263,123819,3,Women's Apparel
+2626,24263,123819,4,Women's Accessory
+2626,24882,123819,3,Women's Apparel
+2626,24882,123819,4,Women's Accessory
+2665,15941,20224,3,Women's Apparel
+2665,15941,20224,4,Women's Accessory
+2665,15941,20224,2,Men's Apparel
+2665,15941,20224,5,Men's Accessory
+2676,15950,19990,2,Men's Apparel
+2690,15983,107032,18,Jewelry & Watches
+2692,15990,117379,3,Women's Apparel
+2692,15990,117379,4,Women's Accessory
+2747,16054,20229,4,Women's Accessory
+2780,16073,117396,14,Home & Furnishing
+3008,25181,124418,3,Women's Apparel
+3092,16638,20248,3,Women's Apparel
+3092,16638,20248,4,Women's Accessory
+3126,16777,118059,14,Home & Furnishing
+3126,16780,77897,3,Women's Apparel
+3126,16780,77897,2,Men's Apparel
+3211,23963,20270,18,Jewelry & Watches
+3380,25048,124332,3,Women's Apparel
+3595,19851,120842,18,Jewelry & Watches
+3595,22916,122932,4,Women's Accessory
+3595,22963,122966,18,Jewelry & Watches
+3662,18758,119903,21,Art Gallery
+3783,23132,20099,51,Shoes
+3791,23965,20270,18,Jewelry & Watches
+3939,20734,117197,10,Food & Beverage
+3939,20735,117198,10,Food & Beverage
+3939,20736,120624,10,Food & Beverage
+3940,20737,120621,67,Convenience Store
+3943,20744,120574,41,Grocery/Supermarket
+4291,23097,20087,3,Women's Apparel
+4291,23097,20087,2,Men's Apparel
+4753,23962,20270,18,Jewelry & Watches
+5590,25547,124699,3,Women's Apparel
+5590,25547,124699,2,Men's Apparel
+6235,23993,123619,10,Food & Beverage
+6816,24340,20087,3,Women's Apparel
+6816,24340,20087,2,Men's Apparel
+7059,24986,20088,3,Women's Apparel
+7059,24986,20088,4,Women's Accessory
+7059,24986,20088,2,Men's Apparel
+7059,24986,20088,5,Men's Accessory
+7059,24987,20088,3,Women's Apparel
+7059,24987,20088,4,Women's Accessory
+7059,24987,20088,2,Men's Apparel
+7059,24987,20088,5,Men's Accessory
+10075,24824,20089,3,Women's Apparel
+10075,24824,20089,2,Men's Apparel
+10075,24897,20088,3,Women's Apparel
+10075,24897,20088,4,Women's Accessory
+10075,24897,20088,2,Men's Apparel
+10075,24897,20088,5,Men's Accessory
+10075,24910,20224,3,Women's Apparel
+10075,24910,20224,4,Women's Accessory
+10075,24910,20224,2,Men's Apparel
+10075,24910,20224,5,Men's Accessory
+11028,25081,20088,3,Women's Apparel
+11028,25081,20088,4,Women's Accessory
+11028,25081,20088,2,Men's Apparel
+11028,25081,20088,5,Men's Accessory
