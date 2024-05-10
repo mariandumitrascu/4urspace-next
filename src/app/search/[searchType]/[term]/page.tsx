@@ -1,6 +1,6 @@
 'use client'
 
-import { Vendor } from "@/app/common/types";
+import { Category, Mall, Vendor } from "@/app/common/types";
 import VendorComponent from "@/app/components/vendor";
 import { useEffect, useState } from "react";
 
@@ -18,20 +18,58 @@ type SearchResultProps = {
 export default function SearchResult({ params: { term, searchType } }: SearchResultProps) {
     const [vendors, setVendors] = useState<Vendor[]>([]);
     useEffect(() => {
-        const fetchData = async () => {
+        const fetchVendors = async () => {
             try {
                 const response = await fetch(`/api/vendors?q=${term}&t=${searchType}`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data: Vendor[] = await response.json();
-                setVendors(data);
+                return data;
             } catch (error) {
                 console.error('Failed to fetch vendors:', error);
             } finally { }
         };
 
-        fetchData();
+        const fetchMalls = async () => {
+            try {
+                const response = await fetch(`/api/malls?q=${term}&t=${searchType}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data: Mall[] = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Failed to fetch malls:', error);
+            } finally { }
+        }
+
+        const fetchCategories = async () => {
+            try {
+                const response = await fetch(`/api/categories?q=${term}&t=${searchType}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data: Category[] = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Failed to fetch categories:', error);
+            } finally { }
+        }
+
+        const fetchAllData = async () => {
+            const vendors = await fetchVendors();
+            const malls = await fetchMalls();
+            const categories = await fetchCategories();
+
+            vendors?.forEach(v => {
+                v.brands = malls?.filter(m => m.cid == v.cid).map(m => m.bid ?? "") ?? [];
+            });
+            console.warn(vendors)
+            setVendors(vendors ?? []);
+        }
+
+        fetchAllData();
     }, []);
 
     return (

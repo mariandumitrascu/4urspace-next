@@ -6,10 +6,10 @@ export type Vendor = {
     bn?: string;
     pc?: string;
     prjs?: string;
-    citys?: string;
-    malls?: string;
-    brands?: string;
-    bcatgs?: string;
+    citys: string[];
+    malls: string[];
+    brands: string[];
+    bcatgs?: string[];
     nr?: string;
     ar?: string;
     ip?: string;
@@ -23,3 +23,25 @@ export type Vendor = {
     zipcode?: string;
 };
 
+export type Mall = {
+    cid?: string;
+    pid?: string;
+    lid?: string;
+    bid?: string;
+    brand?: string;
+    mid?: string;
+    mall?: string;
+    st?: string;
+    city?: string;
+    area?: string;
+    sc?: string;
+    ip?: string;
+};
+
+export type Category = {
+    cid?: string;
+    pid?: string;
+    lid?: string;
+    cgid?: string;
+    cgname?: string;
+};
