@@ -3,7 +3,7 @@
 Today: May 10:
 
 <!-- insert link to local md called data-analysis.md -->
-[Link to data-analysis.md](data-analysis.md)
+[Link to data-analysis jupyter notebook](data_analysis.ipynb)
 
 ---
 
