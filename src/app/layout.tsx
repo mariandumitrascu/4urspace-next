@@ -5,9 +5,9 @@ import "./css/fonts.css";
 import "./css/page.css";
 import "./css/ipage.css";
 import "./css/site.css";
+import "./css/base_styles.css"
 
 import Marketplace from "./components/marketplace";
-import SearchResult from "./components/searchresult";
 
 const inter = Inter({ subsets: ["latin"] });
 
