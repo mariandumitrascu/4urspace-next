@@ -64,6 +64,18 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
 
             vendors?.forEach(v => {
                 v.brands = malls?.filter(m => m.cid == v.cid).map(m => m.bid ?? "") ?? [];
+
+                // I used Set to remove duplicates, I had to change tsconfig.json to add:
+                //   "target": "es2015",
+                //   "downlevelIteration": true
+                v.malls = [...new Set(malls?.filter(m => m.cid == v.cid).map(m => m.mid ?? ""))] ?? [];
+                v.citys = [...new Set(malls?.filter(m => m.cid == v.cid).map(m => m.city ?? ""))] ?? [];
+                v.bcatgs = [...new Set(categories?.filter(m => m.cid == v.cid).map(m => m.cgid ?? ""))] ?? [];
+
+                // these two, I'm not sure which one is correct. Some times they are the same, sometimes they are different
+                // However, the count of them is the same.
+                v.prjs = [...new Set(categories?.filter(m => m.cid == v.cid).map(m => m.pid ?? ""))] ?? [];
+                v.prjs2 = [...new Set(malls?.filter(m => m.cid == v.cid).map(m => m.pid ?? ""))] ?? [];
             });
             console.warn(vendors)
             setVendors(vendors ?? []);

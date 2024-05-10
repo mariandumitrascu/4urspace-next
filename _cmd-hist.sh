@@ -29,6 +29,17 @@
 # http://localhost:3000/search/State/New%20York
 # http://localhost:3000/search/City/Houston
 
+# prjs?: string;
+# citys: string[]; DONE
+# malls: string[]; DONE
+# brands: string[]; DONE
+# bcatgs?: string[];
+
+# prjs, citys, malls, brands, bcatgs
+
+
+# u need to do that in the fetchAllData function
+
 By Type
     Architecture & Design (1)
 By City
