@@ -5,7 +5,8 @@ export type Vendor = {
     bid?: string;
     bn?: string;
     pc?: string;
-    prjs?: string;
+    prjs?: string[];
+    prjs2?: string[];
     citys: string[];
     malls: string[];
     brands: string[];
