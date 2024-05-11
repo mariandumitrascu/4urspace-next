@@ -7,7 +7,7 @@ import SearchHeader from "@/app/components/Header";
 import VendorComponent from "@/app/components/Vendor";
 import VendorsFiltersComponent from "@/app/components/VendorsFiltersComponent";
 import { useEffect, useState } from "react";
-import { groupAndCountByMall, groupAndCountCities } from "@/app/common/mallUtils";
+import { groupAndCountByBrand, groupAndCountByMall, groupAndCountCities } from "@/app/common/mallUtils";
 
 type SearchType = "city" | "mall" | "brand" | "state";
 type SearchParams = {
@@ -91,14 +91,17 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
             const cityFilters = groupAndCountCities(malls!).map(r => ({ filterKey: r.city, filterName: r.city, projectsCount: r.count, selected: false }))
                 .sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
 
-            const mallFilter = groupAndCountByMall(malls!).map(r => ({ filterKey: r.mall, filterName: r.mall, projectsCount: r.count, selected: false }))
+            const mallFilter = groupAndCountByMall(malls!).map(r => ({ filterKey: r.mid, filterName: r.mall, projectsCount: r.count, selected: false }))
+                .sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
+
+            const brandFilter = groupAndCountByBrand(malls!).map(r => ({ filterKey: r.bid, filterName: r.brand, projectsCount: r.count, selected: false }))
                 .sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
 
             setGlobalFilter({
                 typeFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
                 cityFilter: { categoryName: "By City", filters: cityFilters, expanded: true, showMore: true },
                 mallFilter: { categoryName: "By Mall", filters: mallFilter, expanded: true, showMore: true },
-                brandFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
+                brandFilter: { categoryName: "By Brand", filters: brandFilter, expanded: true, showMore: true },
                 businessCategiryFilter: { categoryName: "By Type", filters: types, expanded: false, showMore: true },
             });
             setVendors(vendors ?? []);
@@ -163,5 +166,6 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
 
     );
 }
+
 
 //export default SearchResult;

@@ -33,34 +33,81 @@ export function groupAndCountCities(malls: Mall[]): { city: string; count: numbe
     return result;
 }
 
-export function groupAndCountByMall(malls: Mall[]): { mall: string; count: number }[] {
-    // Step 1: Filter out only those entries that have both 'cid' and 'mall' and mall is not empty
-    const filteredMalls = malls.filter(mall => mall.cid && mall.mall && mall.mall.trim() !== "");
+export function groupAndCountByMall(malls: Mall[]): { mid: string; mall: string; count: number }[] {
+    // Step 1: Filter out only those entries that have both 'mid', 'mall' and ensure they are not empty
+    const filteredMalls = malls.filter(mall => mall.mid && mall.mall && mall.mid.trim() !== "" && mall.mall.trim() !== "");
 
-    // Step 2: Group by 'cid'
-    const cidGroup = new Map<string, Mall[]>();
+    // Step 2: Group by 'mid'
+    const midGroup = new Map<string, Mall[]>();
     filteredMalls.forEach(mall => {
-        if (!cidGroup.has(mall.cid!)) {
-            cidGroup.set(mall.cid!, []);
+        if (!midGroup.has(mall.mid!)) {
+            midGroup.set(mall.mid!, []);
         }
-        cidGroup.get(mall.cid!)!.push(mall);
+        midGroup.get(mall.mid!)!.push(mall);
     });
 
     // Step 3: Regroup by 'mall'
-    const mallGroup = new Map<string, Set<string>>();
-    cidGroup.forEach((value, key) => {
-        value.forEach(mall => {
-            if (!mallGroup.has(mall.mall!)) {
-                mallGroup.set(mall.mall!, new Set());
+    const mallGroup = new Map<string, Map<string, Set<string>>>();
+    midGroup.forEach((values, mid) => {
+        values.forEach(mall => {
+            if (!mallGroup.has(mid)) {
+                mallGroup.set(mid, new Map());
             }
-            mallGroup.get(mall.mall!)!.add(key);
+            if (!mallGroup.get(mid)!.has(mall.mall!)) {
+                mallGroup.get(mid)!.set(mall.mall!, new Set());
+            }
+            if (mall.cid) {
+                mallGroup.get(mid)!.get(mall.mall!)!.add(mall.cid);
+            }
         });
     });
 
     // Step 4: Prepare final count result
-    const result: { mall: string; count: number }[] = [];
-    mallGroup.forEach((cidSet, mall) => {
-        result.push({ mall, count: cidSet.size });
+    const result: { mid: string; mall: string; count: number }[] = [];
+    mallGroup.forEach((malls, mid) => {
+        malls.forEach((cidSet, mall) => {
+            result.push({ mid, mall, count: cidSet.size });
+        });
+    });
+
+    return result;
+}
+
+export function groupAndCountByBrand(malls: Mall[]): { bid: string; brand: string; count: number }[] {
+    // Step 1: Filter out only those entries that have both 'bid', 'brand' and ensure they are not empty
+    const filteredMalls = malls.filter(mall => mall.bid && mall.brand && mall.bid.trim() !== "" && mall.brand.trim() !== "");
+
+    // Step 2: Group by 'bid'
+    const bidGroup = new Map<string, Mall[]>();
+    filteredMalls.forEach(mall => {
+        if (!bidGroup.has(mall.bid!)) {
+            bidGroup.set(mall.bid!, []);
+        }
+        bidGroup.get(mall.bid!)!.push(mall);
+    });
+
+    // Step 3: Regroup by 'brand'
+    const brandGroup = new Map<string, Map<string, Set<string>>>();
+    bidGroup.forEach((values, bid) => {
+        values.forEach(mall => {
+            if (!brandGroup.has(bid)) {
+                brandGroup.set(bid, new Map());
+            }
+            if (!brandGroup.get(bid)!.has(mall.brand!)) {
+                brandGroup.get(bid)!.set(mall.brand!, new Set());
+            }
+            if (mall.cid) {
+                brandGroup.get(bid)!.get(mall.brand!)!.add(mall.cid);
+            }
+        });
+    });
+
+    // Step 4: Prepare final count result
+    const result: { bid: string; brand: string; count: number }[] = [];
+    brandGroup.forEach((brands, bid) => {
+        brands.forEach((cidSet, brand) => {
+            result.push({ bid, brand, count: cidSet.size });
+        });
     });
 
     return result;
