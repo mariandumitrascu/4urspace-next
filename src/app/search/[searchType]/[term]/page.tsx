@@ -88,7 +88,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                 return acc;
             }, {} as { [bid: string]: { filterKey: string, filterName: string, projectsCount: number, selected: boolean } });
 
-            const types = Object.values(typeResult).sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
+            const typeFilter = Object.values(typeResult).sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
 
             const cityFilters = groupAndCountCities(malls!).map(r => ({ filterKey: r.city, filterName: r.city, projectsCount: r.count, selected: false }))
                 .sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
@@ -104,7 +104,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
 
 
             setGlobalFilter({
-                typeFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
+                typeFilter: { categoryName: "By Type", filters: typeFilter, expanded: true, showMore: true },
                 cityFilter: { categoryName: "By City", filters: cityFilters, expanded: true, showMore: true },
                 mallFilter: { categoryName: "By Mall", filters: mallFilter, expanded: true, showMore: true },
                 brandFilter: { categoryName: "By Brand", filters: brandFilter, expanded: true, showMore: true },
@@ -130,7 +130,31 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
     const applyGlobalFilter = () => {
         var vendorsList = [...vendors];
         const typeFilter = globalFilter?.typeFilter.filters.filter(k => k.selected).map(f => f.filterKey) ?? [];
+        const cityFilter = globalFilter?.cityFilter.filters.filter(k => k.selected).map(f => f.filterKey) ?? [];
+        const mallFilter = globalFilter?.mallFilter.filters.filter(k => k.selected).map(f => f.filterKey) ?? [];
         var result = vendorsList.filter(v => typeFilter.length == 0 || typeFilter.some(k => k == v.bid));
+
+        // by city:
+        // this is not working like this
+        var resultByCity = vendorsList.filter(v => cityFilter.length == 0 || cityFilter.some(k => k == v.city));
+        // it should select first the records in malls where city == filter.key
+        // then select the records in vendors where cid == malls.cid
+
+        // by mall:
+        // select first the records in malls that mid == filter.ley
+        // then select the records in vendors where cid == malls.cid
+
+        // by brand:
+        // select first the records in malls that bid == filter.ley
+        // then select the records in vendors where cid == malls.cid
+
+        // by business category:
+        // select first the records in categories that cgid == filter.ley
+        // then select the records in vendors where cid == categories.cid
+
+        // aggregate and sort the results
+
+
         setFilteredVendors(result);
     }
 
