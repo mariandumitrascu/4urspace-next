@@ -150,32 +150,32 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
             // it should select first the records in malls where city == filter.key
             // then select the records in vendors where cid == malls.cid
             // this is not working corectly if i select multiple checkboxes
-            var resultTemp = malls.filter(v => cityFilter.length == 0 || cityFilter.some(k => k == v.city));
-            var result2 = vendorsList.filter(v => resultTemp.length == 0 || resultTemp.some(k => k.cid == v.cid));
+            var resultTemp2 = malls.filter(v => cityFilter.length == 0 || cityFilter.some(k => k == v.city));
+            var result2 = vendorsList.filter(v => resultTemp2.length == 0 || resultTemp2.some(k => k.cid == v.cid));
             if (cityFilter.length == 0)
                 result2 = []
 
             // by mall:
             // select first the records in malls that mid == filter.ley
             // then select the records in vendors where cid == malls.cid
-            var resultTemp = malls.filter(v => mallFilter.length == 0 || mallFilter.some(k => k == v.mid));
-            var result3 = vendorsList.filter(v => resultTemp.length == 0 || resultTemp.some(k => k.cid == v.cid));
+            var resultTemp3 = malls.filter(v => mallFilter.length == 0 || mallFilter.some(k => k == v.mid));
+            var result3 = vendorsList.filter(v => resultTemp3.length == 0 || resultTemp3.some(k => k.cid == v.cid));
             if (mallFilter.length == 0)
                 result3 = []
 
             // by brand:
             // select first the records in malls that bid == filter.ley
             // then select the records in vendors where cid == malls.cid
-            var resultTemp = malls.filter(v => brandFilter.length == 0 || brandFilter.some(k => k == v.bid));
-            var result4 = vendorsList.filter(v => resultTemp.length == 0 || resultTemp.some(k => k.cid == v.cid));
+            var resultTemp4 = malls.filter(v => brandFilter.length == 0 || brandFilter.some(k => k == v.bid));
+            var result4 = vendorsList.filter(v => resultTemp4.length == 0 || resultTemp4.some(k => k.cid == v.cid));
             if (brandFilter.length == 0)
                 result4 = []
 
             // by business category:
             // select first the records in categories that cgid == filter.ley
             // then select the records in vendors where cid == categories.cid
-            var resultTemp = categories.filter(v => businessCategoryFilter.length == 0 || businessCategoryFilter.some(k => k == v.cgid));
-            var result5 = vendorsList.filter(v => resultTemp.length == 0 || resultTemp.some(k => k.cid == v.cid));
+            var resultTemp5 = categories.filter(v => businessCategoryFilter.length == 0 || businessCategoryFilter.some(k => k == v.cgid));
+            var result5 = vendorsList.filter(v => resultTemp5.length == 0 || resultTemp5.some(k => k.cid == v.cid));
             if (businessCategoryFilter.length == 0)
                 result5 = []
 
