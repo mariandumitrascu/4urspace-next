@@ -23,6 +23,8 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
     const [globalFilter, setGlobalFilter] = useState<VendorFilter>();
     const [vendors, setVendors] = useState<Vendor[]>([]);
     const [filteredVendors, setFilteredVendors] = useState<Vendor[]>([]);
+    const [malls, setMalls] = useState<Mall[]>([]);
+    const [categories, setCategories] = useState<Category[]>([]);
 
     useEffect(() => {
         const fetchVendors = async () => {
@@ -113,6 +115,8 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
 
             setVendors(vendorsList ?? []);
             setFilteredVendors([...vendorsList!]);
+            setMalls(malls ?? []);
+            setCategories(categories ?? []);
         }
 
         fetchAllData();
@@ -132,30 +136,62 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
         const typeFilter = globalFilter?.typeFilter.filters.filter(k => k.selected).map(f => f.filterKey) ?? [];
         const cityFilter = globalFilter?.cityFilter.filters.filter(k => k.selected).map(f => f.filterKey) ?? [];
         const mallFilter = globalFilter?.mallFilter.filters.filter(k => k.selected).map(f => f.filterKey) ?? [];
-        var result = vendorsList.filter(v => typeFilter.length == 0 || typeFilter.some(k => k == v.bid));
-
-        // by city:
-        // this is not working like this
-        var resultByCity = vendorsList.filter(v => cityFilter.length == 0 || cityFilter.some(k => k == v.city));
-        // it should select first the records in malls where city == filter.key
-        // then select the records in vendors where cid == malls.cid
-
-        // by mall:
-        // select first the records in malls that mid == filter.ley
-        // then select the records in vendors where cid == malls.cid
-
-        // by brand:
-        // select first the records in malls that bid == filter.ley
-        // then select the records in vendors where cid == malls.cid
-
-        // by business category:
-        // select first the records in categories that cgid == filter.ley
-        // then select the records in vendors where cid == categories.cid
-
-        // aggregate, make distincst and sort the results by type, city, mall, brand, business category
+        const brandFilter = globalFilter?.brandFilter.filters.filter(k => k.selected).map(f => f.filterKey) ?? [];
+        const businessCategoryFilter = globalFilter?.businessCategoryFilter.filters.filter(k => k.selected).map(f => f.filterKey) ?? [];
 
 
-        setFilteredVendors(result);
+        if (typeFilter.length != 0 || cityFilter.length != 0 || mallFilter.length != 0 || brandFilter.length != 0 || businessCategoryFilter.length != 0) {
+            // by type:
+            var result1 = vendorsList.filter(v => typeFilter.length == 0 || typeFilter.some(k => k == v.bid));
+            if (typeFilter.length == 0)
+                result1 = []
+
+            // by city:
+            // it should select first the records in malls where city == filter.key
+            // then select the records in vendors where cid == malls.cid
+            // this is not working corectly if i select multiple checkboxes
+            var resultTemp = malls.filter(v => cityFilter.length == 0 || cityFilter.some(k => k == v.city));
+            var result2 = vendorsList.filter(v => resultTemp.length == 0 || resultTemp.some(k => k.cid == v.cid));
+            if (cityFilter.length == 0)
+                result2 = []
+
+            // by mall:
+            // select first the records in malls that mid == filter.ley
+            // then select the records in vendors where cid == malls.cid
+            var resultTemp = malls.filter(v => mallFilter.length == 0 || mallFilter.some(k => k == v.mid));
+            var result3 = vendorsList.filter(v => resultTemp.length == 0 || resultTemp.some(k => k.cid == v.cid));
+            if (mallFilter.length == 0)
+                result3 = []
+
+            // by brand:
+            // select first the records in malls that bid == filter.ley
+            // then select the records in vendors where cid == malls.cid
+            var resultTemp = malls.filter(v => brandFilter.length == 0 || brandFilter.some(k => k == v.bid));
+            var result4 = vendorsList.filter(v => resultTemp.length == 0 || resultTemp.some(k => k.cid == v.cid));
+            if (brandFilter.length == 0)
+                result4 = []
+
+            // by business category:
+            // select first the records in categories that cgid == filter.ley
+            // then select the records in vendors where cid == categories.cid
+            var resultTemp = categories.filter(v => businessCategoryFilter.length == 0 || businessCategoryFilter.some(k => k == v.cgid));
+            var result5 = vendorsList.filter(v => resultTemp.length == 0 || resultTemp.some(k => k.cid == v.cid));
+            if (businessCategoryFilter.length == 0)
+                result5 = []
+
+            // aggregate, make distincst and sort the results by name
+            // but should combine only if checkboxes are selected
+            // this is working ok if both filterType and cityFilter have some checkboxes selected
+            const combinedResults = [...result1, ...result2, ...result3, ...result4, ...result5];
+            const uniqueMap = new Map();
+            combinedResults.forEach(vendor => uniqueMap.set(vendor.cid, vendor));
+            const uniqueResults = Array.from(uniqueMap.values());
+
+            // setFilteredVendors(result1);
+            setFilteredVendors(uniqueResults);
+        } else {
+            setFilteredVendors([...vendorsList]);
+        }
     }
 
     const showMoreHandler = (categoryName: keyof VendorFilter, showMore: boolean) => {
