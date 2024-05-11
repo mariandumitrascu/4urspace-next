@@ -20,8 +20,10 @@ type SearchResultProps = {
 };
 
 export default function SearchResult({ params: { term, searchType } }: SearchResultProps) {
-    const [vendors, setVendors] = useState<Vendor[]>([]);
     const [globalFilter, setGlobalFilter] = useState<VendorFilter>();
+    const [vendors, setVendors] = useState<Vendor[]>([]);
+    const [filteredVendors, setFilteredVendors] = useState<Vendor[]>([]);
+
     useEffect(() => {
         const fetchVendors = async () => {
             try {
@@ -63,11 +65,11 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
         }
 
         const fetchAllData = async () => {
-            const vendors = await fetchVendors();
+            const vendorsList = await fetchVendors();
             const malls = await fetchMalls();
             const categories = await fetchCategories();
 
-            vendors?.forEach(v => {
+            vendorsList?.forEach(v => {
                 v.brands = malls?.filter(m => m.cid == v.cid).map(m => m.bid ?? "") ?? [];
 
                 v.malls = [...new Set(malls?.filter(m => m.cid == v.cid).map(m => m.mid ?? ""))] ?? [];
@@ -78,7 +80,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                 v.prjs2 = [...new Set(malls?.filter(m => m.cid == v.cid).map(m => m.pid ?? ""))] ?? [];
             });
 
-            const typeResult = vendors!.reduce((acc, vendor) => {
+            const typeResult = vendorsList!.reduce((acc, vendor) => {
                 if (!acc[vendor.bid]) {
                     acc[vendor.bid] = { filterKey: vendor.bid, filterName: vendor.bn, projectsCount: 0, selected: false };
                 }
@@ -108,7 +110,9 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                 brandFilter: { categoryName: "By Brand", filters: brandFilter, expanded: true, showMore: true },
                 businessCategoryFilter: { categoryName: "By Business Category", filters: businessCategoryFilter, expanded: true, showMore: true },
             });
-            setVendors(vendors ?? []);
+
+            setVendors(vendorsList ?? []);
+            setFilteredVendors([...vendorsList!]);
         }
 
         fetchAllData();
@@ -119,9 +123,15 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
         const filters = filter[categoryName]!.filters;
         const index = filters.findIndex(f => f.filterKey == subFilter.filterKey);
         filters[index] = subFilter;
-        console.error(`category ${categoryName} - ${subFilter.filterKey}`)
-        console.error(filter)
         setGlobalFilter(filter as VendorFilter);
+        applyGlobalFilter();
+    }
+
+    const applyGlobalFilter = () => {
+        var vendorsList = [...vendors];
+        const typeFilter = globalFilter?.typeFilter.filters.filter(k => k.selected).map(f => f.filterKey) ?? [];
+        var result = vendorsList.filter(v => typeFilter.length == 0 || typeFilter.some(k => k == v.bid));
+        setFilteredVendors(result);
     }
 
     const showMoreHandler = (categoryName: keyof VendorFilter, showMore: boolean) => {
@@ -140,7 +150,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                         {globalFilter && (<VendorsFiltersComponent filter={globalFilter} onSelectFilter={updateFiltersHandler} onShowMore={showMoreHandler} />)}
                     </div>
                     <div className="row row-title normal">
-                        <h1 id="vendorcount">{vendors.length} Found</h1>
+                        <h1 id="vendorcount">{filteredVendors.length} Found</h1>
                         <ul className="text-list" id="pagination">
                             <li><a className="active">1</a>
                             </li><li><a >2</a></li>
@@ -159,8 +169,8 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                     <div className="row row-list">
                         <ul className="text-list match-parent" id="vendor_results">
                             {
-                                vendors && vendors.length && (
-                                    vendors.map((v) => <VendorComponent vendor={v} term={term} key={`vendor-${v.cid}`} />)
+                                filteredVendors && filteredVendors.length && (
+                                    filteredVendors.map((v) => <VendorComponent vendor={v} term={term} key={`vendor-${v.cid}`} />)
                                 )
                             }
                         </ul>
