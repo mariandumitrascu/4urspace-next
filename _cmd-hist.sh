@@ -1,6 +1,6 @@
 # this file contains commands and information used in this project
 
-
+# #################################################################################
 # apis for data:
 
 # City
@@ -25,9 +25,15 @@
 # Mall
 
 # #################################################################################
-# examples of calls:
-# http://localhost:3000/search/State/New%20York
+# examples of 4urspace original calls:
+
+# https://4urspace.com/search/City/Houston
+
+# #################################################################################
+# examples of nextjs calls:
+
 # http://localhost:3000/search/City/Houston
+# http://localhost:3000/search/State/New%20York
 
 # prjs?: string;
 # citys: string[]; DONE
