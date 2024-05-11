@@ -14,6 +14,7 @@ export default function VendorsFiltersComponent({ filter, onShowMore, onSelectFi
             <h1><a className="text-show active"></a>Filters</h1>
             <ul className="menu menu-show menu-checkbox">
                 <VendorFilterComponent filter={filter.typeFilter} category="typeFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
+                <VendorFilterComponent filter={filter.cityFilter} category="cityFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
             </ul>
         </div>
     );

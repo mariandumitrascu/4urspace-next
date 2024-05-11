@@ -7,6 +7,7 @@ import SearchHeader from "@/app/components/Header";
 import VendorComponent from "@/app/components/Vendor";
 import VendorsFiltersComponent from "@/app/components/VendorsFiltersComponent";
 import { useEffect, useState } from "react";
+import groupAndCount from "@/app/common/mallUtils";
 
 type SearchType = "city" | "mall" | "brand" | "state";
 type SearchParams = {
@@ -77,7 +78,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                 v.prjs2 = [...new Set(malls?.filter(m => m.cid == v.cid).map(m => m.pid ?? ""))] ?? [];
             });
 
-            const result = vendors!.reduce((acc, vendor) => {
+            const typeResult = vendors!.reduce((acc, vendor) => {
                 if (!acc[vendor.bid]) {
                     acc[vendor.bid] = { filterKey: vendor.bid, filterName: vendor.bn, projectsCount: 0, selected: false };
                 }
@@ -85,11 +86,14 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                 return acc;
             }, {} as { [bid: string]: { filterKey: string, filterName: string, projectsCount: number, selected: boolean } });
 
-            const types = Object.values(result).sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
+            const types = Object.values(typeResult).sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
+
+            const mallFilters = groupAndCount(malls!).map(r => ({ filterKey: r.city, filterName: r.city, projectsCount: r.count, selected: false }))
+                .sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
 
             setGlobalFilter({
                 typeFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
-                cityFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
+                cityFilter: { categoryName: "By City", filters: mallFilters, expanded: true, showMore: true },
                 mallFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
                 brandFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
                 businessCategiryFilter: { categoryName: "By Type", filters: types, expanded: false, showMore: true },
