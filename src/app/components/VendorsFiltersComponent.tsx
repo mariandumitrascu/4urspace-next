@@ -17,6 +17,7 @@ export default function VendorsFiltersComponent({ filter, onShowMore, onSelectFi
                 <VendorFilterComponent filter={filter.cityFilter} category="cityFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
                 <VendorFilterComponent filter={filter.mallFilter} category="mallFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
                 <VendorFilterComponent filter={filter.brandFilter} category="brandFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
+                <VendorFilterComponent filter={filter.businessCategoryFilter} category="businessCategoryFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
             </ul>
         </div>
     );

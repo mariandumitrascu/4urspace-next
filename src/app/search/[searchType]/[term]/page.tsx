@@ -7,7 +7,7 @@ import SearchHeader from "@/app/components/Header";
 import VendorComponent from "@/app/components/Vendor";
 import VendorsFiltersComponent from "@/app/components/VendorsFiltersComponent";
 import { useEffect, useState } from "react";
-import { groupAndCountByBrand, groupAndCountByMall, groupAndCountCities } from "@/app/common/mallUtils";
+import { groupAndCountByBrand, groupAndCountByBusinessCategory, groupAndCountByMall, groupAndCountCities } from "@/app/common/mallUtils";
 
 type SearchType = "city" | "mall" | "brand" | "state";
 type SearchParams = {
@@ -97,12 +97,16 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
             const brandFilter = groupAndCountByBrand(malls!).map(r => ({ filterKey: r.bid, filterName: r.brand, projectsCount: r.count, selected: false }))
                 .sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
 
+            const businessCategoryFilter = groupAndCountByBusinessCategory(categories!).map(r => ({ filterKey: r.cgid, filterName: r.cgname, projectsCount: r.count, selected: false }))
+                .sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
+
+
             setGlobalFilter({
                 typeFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
                 cityFilter: { categoryName: "By City", filters: cityFilters, expanded: true, showMore: true },
                 mallFilter: { categoryName: "By Mall", filters: mallFilter, expanded: true, showMore: true },
                 brandFilter: { categoryName: "By Brand", filters: brandFilter, expanded: true, showMore: true },
-                businessCategiryFilter: { categoryName: "By Type", filters: types, expanded: false, showMore: true },
+                businessCategoryFilter: { categoryName: "By Business Category", filters: businessCategoryFilter, expanded: true, showMore: true },
             });
             setVendors(vendors ?? []);
         }
@@ -129,7 +133,6 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
             <SearchHeader />
             <div className="container">
                 <Marketplace term={term} searchType={searchType} />
-
                 <section className="section section-searchresult" id="section-searchresult">
                     <div className="row row-form normal">
                         {globalFilter && (<VendorsFiltersComponent filter={globalFilter} onSelectFilter={updateFiltersHandler} onShowMore={showMoreHandler} />)}
@@ -166,6 +169,3 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
 
     );
 }
-
-
-//export default SearchResult;

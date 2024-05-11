@@ -17,5 +17,5 @@ export type VendorFilter = {
     cityFilter: ParentCategoryFilter;
     mallFilter: ParentCategoryFilter;
     brandFilter: ParentCategoryFilter;
-    businessCategiryFilter: ParentCategoryFilter;
+    businessCategoryFilter: ParentCategoryFilter;
 }

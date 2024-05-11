@@ -1,4 +1,4 @@
-import { Mall } from "./types";
+import { Category, Mall } from "./types";
 
 export function groupAndCountCities(malls: Mall[]): { city: string; count: number }[] {
     // Step 1: Filter out only those entries that have both 'cid' and 'city'
@@ -107,6 +107,46 @@ export function groupAndCountByBrand(malls: Mall[]): { bid: string; brand: strin
     brandGroup.forEach((brands, bid) => {
         brands.forEach((cidSet, brand) => {
             result.push({ bid, brand, count: cidSet.size });
+        });
+    });
+
+    return result;
+}
+
+export function groupAndCountByBusinessCategory(categories: Category[]): { cgid: string; cgname: string; count: number }[] {
+    // Step 1: Filter out only those entries that have both 'cgid' and 'cgname' and ensure they are not empty
+    const filteredCategories = categories.filter(cat => cat.cgid && cat.cgname && cat.cgid.trim() !== "" && cat.cgname.trim() !== "");
+
+    // Step 2: Group by 'cgid'
+    const cgidGroup = new Map<string, Category[]>();
+    filteredCategories.forEach(cat => {
+        if (!cgidGroup.has(cat.cgid!)) {
+            cgidGroup.set(cat.cgid!, []);
+        }
+        cgidGroup.get(cat.cgid!)!.push(cat);
+    });
+
+    // Step 3: Regroup by 'cgname'
+    const cgnameGroup = new Map<string, Map<string, Set<string>>>();
+    cgidGroup.forEach((values, cgid) => {
+        values.forEach(cat => {
+            if (!cgnameGroup.has(cgid)) {
+                cgnameGroup.set(cgid, new Map());
+            }
+            if (!cgnameGroup.get(cgid)!.has(cat.cgname!)) {
+                cgnameGroup.get(cgid)!.set(cat.cgname!, new Set());
+            }
+            if (cat.cid) {
+                cgnameGroup.get(cgid)!.get(cat.cgname!)!.add(cat.cid);
+            }
+        });
+    });
+
+    // Step 4: Prepare final count result
+    const result: { cgid: string; cgname: string; count: number }[] = [];
+    cgnameGroup.forEach((names, cgid) => {
+        names.forEach((cidSet, cgname) => {
+            result.push({ cgid, cgname, count: cidSet.size });
         });
     });
 
