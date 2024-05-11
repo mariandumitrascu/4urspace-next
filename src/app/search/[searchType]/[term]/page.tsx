@@ -119,6 +119,8 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
         const filters = filter[categoryName]!.filters;
         const index = filters.findIndex(f => f.filterKey == subFilter.filterKey);
         filters[index] = subFilter;
+        console.error(`category ${categoryName} - ${subFilter.filterKey}`)
+        console.error(filter)
         setGlobalFilter(filter as VendorFilter);
     }
 
