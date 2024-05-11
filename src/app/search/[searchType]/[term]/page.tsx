@@ -3,7 +3,7 @@
 import { CategoryFilter, VendorFilter } from "@/app/common/filter";
 import { Category, Mall, Vendor } from "@/app/common/types";
 import VendorComponent from "@/app/components/Vendor";
-import VendorsFiltersComponent from "@/app/components/VendorsFilter";
+import VendorsFiltersComponent from "@/app/components/VendorsFiltersComponent";
 import { useEffect, useState } from "react";
 
 type SearchType = "city" | "mall" | "brand" | "state";
@@ -19,7 +19,7 @@ type SearchResultProps = {
 
 export default function SearchResult({ params: { term, searchType } }: SearchResultProps) {
     const [vendors, setVendors] = useState<Vendor[]>([]);
-    const [filter, setFilter] = useState<VendorFilter>();
+    const [globalFilter, setGlobalFilter] = useState<VendorFilter>();
     useEffect(() => {
         const fetchVendors = async () => {
             try {
@@ -86,7 +86,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
 
             const types = Object.values(result);
 
-            setFilter({
+            setGlobalFilter({
                 typeFilter: { categoryName: "By Type", filters: types, expanded: true },
                 cityFilter: { categoryName: "By Type", filters: types, expanded: true },
                 mallFilter: { categoryName: "By Type", filters: types, expanded: true },
@@ -99,10 +99,18 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
         fetchAllData();
     }, []);
 
+    const updateFilters = (categoryName: keyof VendorFilter, subFilter: CategoryFilter) => {
+        const filter = { ...globalFilter, [categoryName]: { ...globalFilter![categoryName] } };
+        const filters = filter[categoryName]!.filters;
+        const index = filters.findIndex(f => f.filterKey == subFilter.filterKey);
+        filters[index] = subFilter;
+        setGlobalFilter(filter as VendorFilter);
+    }
+
     return (
         <section className="section section-searchresult" id="section-searchresult">
             <div className="row row-form normal">
-                {filter && (<VendorsFiltersComponent filter={filter} />)}
+                {globalFilter && (<VendorsFiltersComponent filter={globalFilter} onSelectFilter={updateFilters} />)}
             </div>
             <div className="row row-title normal">
                 <h1 id="vendorcount">{vendors.length} Found</h1>
