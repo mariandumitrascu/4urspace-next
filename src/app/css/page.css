@@ -3403,3 +3403,7 @@ a.ecta-button:hover {
     /*background: #fff url(../images/chat-loader.gif) center center no-repeat;*/
     background-size: 100px;
 }
+
+.capitalize {
+    text-transform: capitalize;
+}

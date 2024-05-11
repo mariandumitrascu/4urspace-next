@@ -2,6 +2,8 @@
 
 import { CategoryFilter, VendorFilter } from "@/app/common/filter";
 import { Category, Mall, Vendor } from "@/app/common/types";
+import Marketplace from "@/app/components/Marketplace";
+import SearchHeader from "@/app/components/Header";
 import VendorComponent from "@/app/components/Vendor";
 import VendorsFiltersComponent from "@/app/components/VendorsFiltersComponent";
 import { useEffect, useState } from "react";
@@ -15,7 +17,6 @@ type SearchParams = {
 type SearchResultProps = {
     params: SearchParams;
 };
-
 
 export default function SearchResult({ params: { term, searchType } }: SearchResultProps) {
     const [vendors, setVendors] = useState<Vendor[]>([]);
@@ -87,11 +88,11 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
             const types = Object.values(result).sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
 
             setGlobalFilter({
-                typeFilter: { categoryName: "By Type", filters: types, expanded: true },
-                cityFilter: { categoryName: "By Type", filters: types, expanded: true },
-                mallFilter: { categoryName: "By Type", filters: types, expanded: true },
-                brandFilter: { categoryName: "By Type", filters: types, expanded: true },
-                businessCategiryFilter: { categoryName: "By Type", filters: types, expanded: false },
+                typeFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: false },
+                cityFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: false },
+                mallFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: false },
+                brandFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: false },
+                businessCategiryFilter: { categoryName: "By Type", filters: types, expanded: false, showMore: false },
             });
             setVendors(vendors ?? []);
         }
@@ -108,37 +109,45 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
     }
 
     return (
-        <section className="section section-searchresult" id="section-searchresult">
-            <div className="row row-form normal">
-                {globalFilter && (<VendorsFiltersComponent filter={globalFilter} onSelectFilter={updateFilters} />)}
-            </div>
-            <div className="row row-title normal">
-                <h1 id="vendorcount">{vendors.length} Found</h1>
-                <ul className="text-list" id="pagination">
-                    <li><a className="active">1</a>
-                    </li><li><a >2</a></li>
-                </ul>
-                <div className="einvite" data-einvite="rfpvendors" data-max="5">
-                    <form action="/dashboard/rfp" method="post" id="rfpform">
-                        <input type="hidden" name="hdnaction" id="hdnaction" value="vendorsearch" />
-                        <div className="einvite-section">
-                            <h2>Request a Proposal</h2>
-                            <p><span className="einvite-selected">0</span> <strong>Vendors selected</strong></p>
-                            <a className="einvite-submit">Next</a>
+        <div className="nav_view" id="epage">
+            <SearchHeader />
+            <div className="container">
+                <Marketplace term={term} searchType={searchType} />
+
+                <section className="section section-searchresult" id="section-searchresult">
+                    <div className="row row-form normal">
+                        {globalFilter && (<VendorsFiltersComponent filter={globalFilter} onSelectFilter={updateFilters} />)}
+                    </div>
+                    <div className="row row-title normal">
+                        <h1 id="vendorcount">{vendors.length} Found</h1>
+                        <ul className="text-list" id="pagination">
+                            <li><a className="active">1</a>
+                            </li><li><a >2</a></li>
+                        </ul>
+                        <div className="einvite" data-einvite="rfpvendors" data-max="5">
+                            <form action="/dashboard/rfp" method="post" id="rfpform">
+                                <input type="hidden" name="hdnaction" id="hdnaction" value="vendorsearch" />
+                                <div className="einvite-section">
+                                    <h2>Request a Proposal</h2>
+                                    <p><span className="einvite-selected">0</span> <strong>Vendors selected</strong></p>
+                                    <a className="einvite-submit">Next</a>
+                                </div>
+                            </form>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                    <div className="row row-list">
+                        <ul className="text-list match-parent" id="vendor_results">
+                            {
+                                vendors && vendors.length && (
+                                    vendors.map((v) => <VendorComponent vendor={v} term={term} key={`vendor-${v.cid}`} />)
+                                )
+                            }
+                        </ul>
+                    </div>
+                </section>
             </div>
-            <div className="row row-list">
-                <ul className="text-list match-parent" id="vendor_results">
-                    {
-                        vendors && vendors.length && (
-                            vendors.map((v) => <VendorComponent vendor={v} term={term} key={`vendor-${v.cid}`} />)
-                        )
-                    }
-                </ul>
-            </div>
-        </section>
+        </div>
+
     );
 }
 
