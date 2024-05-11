@@ -1,6 +1,6 @@
 'use client'
 
-import { CategoryFilter, VendorFilter } from "@/app/common/filter";
+import { CategoryFilter, ParentCategoryFilter, VendorFilter } from "@/app/common/filter";
 import { Category, Mall, Vendor } from "@/app/common/types";
 import Marketplace from "@/app/components/Marketplace";
 import SearchHeader from "@/app/components/Header";
@@ -88,11 +88,11 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
             const types = Object.values(result).sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
 
             setGlobalFilter({
-                typeFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: false },
-                cityFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: false },
-                mallFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: false },
-                brandFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: false },
-                businessCategiryFilter: { categoryName: "By Type", filters: types, expanded: false, showMore: false },
+                typeFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
+                cityFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
+                mallFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
+                brandFilter: { categoryName: "By Type", filters: types, expanded: true, showMore: true },
+                businessCategiryFilter: { categoryName: "By Type", filters: types, expanded: false, showMore: true },
             });
             setVendors(vendors ?? []);
         }
@@ -100,11 +100,17 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
         fetchAllData();
     }, []);
 
-    const updateFilters = (categoryName: keyof VendorFilter, subFilter: CategoryFilter) => {
+    const updateFiltersHandler = (categoryName: keyof VendorFilter, subFilter: CategoryFilter) => {
         const filter = { ...globalFilter, [categoryName]: { ...globalFilter![categoryName] } };
         const filters = filter[categoryName]!.filters;
         const index = filters.findIndex(f => f.filterKey == subFilter.filterKey);
         filters[index] = subFilter;
+        setGlobalFilter(filter as VendorFilter);
+    }
+
+    const showMoreHandler = (categoryName: keyof VendorFilter, showMore: boolean) => {
+        const filter = { ...globalFilter };
+        filter[categoryName]!.showMore = showMore;
         setGlobalFilter(filter as VendorFilter);
     }
 
@@ -116,7 +122,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
 
                 <section className="section section-searchresult" id="section-searchresult">
                     <div className="row row-form normal">
-                        {globalFilter && (<VendorsFiltersComponent filter={globalFilter} onSelectFilter={updateFilters} />)}
+                        {globalFilter && (<VendorsFiltersComponent filter={globalFilter} onSelectFilter={updateFiltersHandler} onShowMore={showMoreHandler} />)}
                     </div>
                     <div className="row row-title normal">
                         <h1 id="vendorcount">{vendors.length} Found</h1>
