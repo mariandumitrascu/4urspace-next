@@ -159,3 +159,15 @@ if [[ "$(node -v)" < "v18.17.0" ]]; then
   # Use Node.js v18.17.0
   nvm use v18.17.0
 fi
+
+Could not read source map for file:///Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/%40next/react-refresh-utils/dist/runtime.js: ENOENT: no such file or directory, open '/Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js.map'
+Could not read source map for file:///Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/%40next/react-refresh-utils/dist/internal/helpers.js: ENOENT: no such file or directory, open '/Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/internal/helpers.js.map'
+Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+Could not read source map for file:///Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/%40next/react-refresh-utils/dist/runtime.js: ENOENT: no such file or directory, open '/Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js.map'
+Could not read source map for file:///Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/%40next/react-refresh-utils/dist/internal/helpers.js: ENOENT: no such file or directory, open '/Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/internal/helpers.js.map'
+Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+WARNING!
+Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.
+Could not read source map for file:///Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/%40next/react-refresh-utils/dist/runtime.js: ENOENT: no such file or directory, open '/Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js.map'
+Could not read source map for file:///Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/%40next/react-refresh-utils/dist/internal/helpers.js: ENOENT: no such file or directory, open '/Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/internal/helpers.js.map'
