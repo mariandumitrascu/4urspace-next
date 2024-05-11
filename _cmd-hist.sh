@@ -1,5 +1,8 @@
 # this file contains commands and information used in this project
 
+# on github
+# https://github.com/mariandumitrascu/4urspace-next
+
 # #################################################################################
 # apis for data:
 
@@ -26,12 +29,11 @@
 
 # #################################################################################
 # examples of 4urspace original calls:
-
 # https://4urspace.com/search/City/Houston
+# https://4urspace.com/search/State/New%20York
 
 # #################################################################################
 # examples of nextjs calls:
-
 # http://localhost:3000/search/City/Houston
 # http://localhost:3000/search/State/New%20York
 
