@@ -152,7 +152,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
         // select first the records in categories that cgid == filter.ley
         // then select the records in vendors where cid == categories.cid
 
-        // aggregate and sort the results
+        // aggregate, make distincst and sort the results by type, city, mall, brand, business category
 
 
         setFilteredVendors(result);
