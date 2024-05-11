@@ -5,9 +5,6 @@ import "./css/page.css";
 import "./css/ipage.css";
 import "./css/site.css";
 import "./css/base_styles.css"
-import Header from "./components/Header";
-import Marketplace from "./components/Marketplace";
-
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,13 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className} suppressHydrationWarning={true}>
-        <div className="nav_view" id="epage">
-          <Header />
-          <div className="container">
-            <Marketplace />
-            {children}
-          </div>
-        </div>
+        {children}
       </body>
     </html>
   );

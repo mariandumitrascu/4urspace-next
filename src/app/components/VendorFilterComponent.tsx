@@ -12,14 +12,14 @@ export default function VendorFilterComponent({ filter, category, onSelectFilter
         categoryFilter.selected = !categoryFilter.selected;
         onSelectFilter?.(category, categoryFilter)
     }
-
+    const filters = filter.filters.slice(0, filter.showMore ? filter.filters.length : 11);
     return (
         <li className="parent parent-show" id="vendortype_filter_parent">
             <a className={`text-show ${filter.expanded ? "" : "active"}`}></a><h2>{filter.categoryName}</h2>
             {filter.expanded && filter.filters.length && (
                 <ul style={{ "display": "block" }}>
                     {
-                        filter.filters.map(f => (
+                        filters.map(f => (
                             <li key={`sub-${f.filterKey}`}>
                                 <input className="large" type="checkbox" data-filtertype="vendortype" />
                                 <span className={`text-checkbox ${f.selected ? "active" : ""}`} onClick={() => onClickHandler(f)}></span><span className="text-checkbox"></span>

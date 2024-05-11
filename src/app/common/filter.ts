@@ -8,6 +8,7 @@ export type CategoryFilter = {
 export type ParentCategoryFilter = {
     categoryName: string;
     expanded: boolean;
+    showMore: boolean;
     filters: CategoryFilter[];
 }
 

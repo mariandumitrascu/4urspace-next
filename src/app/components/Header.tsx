@@ -1,5 +1,5 @@
 import '../css/header.css'
-export default function Header() {
+export default function SearchHeader() {
     return (
         <header id="iheader">
             <a id="iheader-title" href="https://4urspace.com/"><img src="https://4urspace.com/assets/images/iheader-title.svg?1715255334" alt="" /></a>
