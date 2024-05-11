@@ -1,7 +1,9 @@
 'use client'
 
+import { CategoryFilter, VendorFilter } from "@/app/common/filter";
 import { Category, Mall, Vendor } from "@/app/common/types";
-import VendorComponent from "@/app/components/vendor";
+import VendorComponent from "@/app/components/Vendor";
+import VendorsFiltersComponent from "@/app/components/VendorsFilter";
 import { useEffect, useState } from "react";
 
 type SearchType = "city" | "mall" | "brand" | "state";
@@ -17,6 +19,7 @@ type SearchResultProps = {
 
 export default function SearchResult({ params: { term, searchType } }: SearchResultProps) {
     const [vendors, setVendors] = useState<Vendor[]>([]);
+    const [filter, setFilter] = useState<VendorFilter>();
     useEffect(() => {
         const fetchVendors = async () => {
             try {
@@ -65,19 +68,31 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
             vendors?.forEach(v => {
                 v.brands = malls?.filter(m => m.cid == v.cid).map(m => m.bid ?? "") ?? [];
 
-                // I used Set to remove duplicates, I had to change tsconfig.json to add:
-                //   "target": "es2015",
-                //   "downlevelIteration": true
                 v.malls = [...new Set(malls?.filter(m => m.cid == v.cid).map(m => m.mid ?? ""))] ?? [];
                 v.citys = [...new Set(malls?.filter(m => m.cid == v.cid).map(m => m.city ?? ""))] ?? [];
                 v.bcatgs = [...new Set(categories?.filter(m => m.cid == v.cid).map(m => m.cgid ?? ""))] ?? [];
 
-                // these two, I'm not sure which one is correct. Some times they are the same, sometimes they are different
-                // However, the count of them is the same.
                 v.prjs = [...new Set(categories?.filter(m => m.cid == v.cid).map(m => m.pid ?? ""))] ?? [];
                 v.prjs2 = [...new Set(malls?.filter(m => m.cid == v.cid).map(m => m.pid ?? ""))] ?? [];
             });
-            console.warn(vendors)
+
+            const result = vendors!.reduce((acc, vendor) => {
+                if (!acc[vendor.bid]) {
+                    acc[vendor.bid] = { filterKey: vendor.bid, filterName: vendor.bn, projectsCount: 0, selected: false };
+                }
+                acc[vendor.bid].projectsCount++;
+                return acc;
+            }, {} as { [bid: string]: { filterKey: string, filterName: string, projectsCount: number, selected: boolean } });
+
+            const types = Object.values(result);
+
+            setFilter({
+                typeFilter: { categoryName: "By Type", filters: types, expanded: true },
+                cityFilter: { categoryName: "By Type", filters: types, expanded: true },
+                mallFilter: { categoryName: "By Type", filters: types, expanded: true },
+                brandFilter: { categoryName: "By Type", filters: types, expanded: true },
+                businessCategiryFilter: { categoryName: "By Type", filters: types, expanded: false },
+            });
             setVendors(vendors ?? []);
         }
 
@@ -87,9 +102,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
     return (
         <section className="section section-searchresult" id="section-searchresult">
             <div className="row row-form normal">
-                <div className="text-box">
-                    <h1><a className="text-show active"></a>Filters</h1>
-                </div>
+                {filter && (<VendorsFiltersComponent filter={filter} />)}
             </div>
             <div className="row row-title normal">
                 <h1 id="vendorcount">{vendors.length} Found</h1>

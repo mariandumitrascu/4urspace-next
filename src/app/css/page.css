@@ -266,7 +266,7 @@ input[type=checkbox].large {
 }
 
 input[type=checkbox].large+.text-checkbox {
-    background: transparent url(/assets/images/text-checkbox.png) no-repeat 0 0;
+    background: transparent url(/images/text-checkbox.png) no-repeat 0 0;
     float: left;
     height: 20px;
     width: 20px;
@@ -916,7 +916,7 @@ input[type=checkbox].large+.text-checkbox.active {
 }
 
 .section-searchresult .row-form a.text-show {
-    /*background: #39f url(/assets/images/text-show.png) no-repeat 0 0;*/
+    background: #39f url(/images/text-show.png) no-repeat 0 0;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;

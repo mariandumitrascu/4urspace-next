@@ -397,3 +397,8 @@ ul#iheader-menu a:hover {
         width: calc(100% - 24px);
     }
 }
+
+.menu label {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}

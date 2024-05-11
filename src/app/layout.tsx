@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Header from "./components/header";
 import "./css/fonts.css";
 import "./css/page.css";
 import "./css/ipage.css";
 import "./css/site.css";
 import "./css/base_styles.css"
+import Header from "./components/Header";
+import Marketplace from "./components/Marketplace";
 
-import Marketplace from "./components/marketplace";
 
 const inter = Inter({ subsets: ["latin"] });
 

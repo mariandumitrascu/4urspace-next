@@ -2,8 +2,8 @@ export type Vendor = {
     cid?: string;
     cn?: string;
     pic?: string;
-    bid?: string;
-    bn?: string;
+    bid: string;
+    bn: string;
     pc?: string;
     prjs?: string[];
     prjs2?: string[];
