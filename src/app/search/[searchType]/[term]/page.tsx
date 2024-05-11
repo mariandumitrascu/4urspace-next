@@ -84,7 +84,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                 return acc;
             }, {} as { [bid: string]: { filterKey: string, filterName: string, projectsCount: number, selected: boolean } });
 
-            const types = Object.values(result);
+            const types = Object.values(result).sort((a, b) => (a.filterName > b.filterName) ? 1 : (a.filterName < b.filterName) ? -1 : 0);
 
             setGlobalFilter({
                 typeFilter: { categoryName: "By Type", filters: types, expanded: true },
