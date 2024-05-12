@@ -10,7 +10,7 @@ Data
 
 ![1715377401303](image/README/1715377401303.png)
 
-![alt text](image-1.png)
+![alt text](image/README/image-1.png)
 
 
 ---
