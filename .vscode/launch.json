@@ -2,10 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Chrome 1",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:3000/search/city/houston",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:3000",
+            "name": "Launch Chrome 2",
+            "url": "http://localhost:3000/search/city/houston",
             "webRoot": "${workspaceFolder}",
             // "sourceMapPathOverrides": {
             //     "webpack://_N_E/.*": "${webRoot}/.next/*",

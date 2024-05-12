@@ -171,3 +171,7 @@ Using this console may allow attackers to impersonate you and steal your informa
 Do not enter or paste code that you do not understand.
 Could not read source map for file:///Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/%40next/react-refresh-utils/dist/runtime.js: ENOENT: no such file or directory, open '/Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js.map'
 Could not read source map for file:///Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/%40next/react-refresh-utils/dist/internal/helpers.js: ENOENT: no such file or directory, open '/Users/marian.dumitrascu/Library/CloudStorage/Dropbox/work-P/4urspace/4urspace-next-lll/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/internal/helpers.js.map'
+
+# ##############################################################################################
+# prompt:
+
