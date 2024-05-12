@@ -13,11 +13,11 @@ export default function VendorsFiltersComponent({ filter, onShowMore, onSelectFi
         <div className="text-box">
             <h1><a className="text-show active"></a>Filters</h1>
             <ul className="menu menu-show menu-checkbox">
-                <VendorFilterComponent filter={filter.typeFilter} category="typeFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
-                <VendorFilterComponent filter={filter.cityFilter} category="cityFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
-                <VendorFilterComponent filter={filter.mallFilter} category="mallFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
-                <VendorFilterComponent filter={filter.brandFilter} category="brandFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
-                <VendorFilterComponent filter={filter.businessCategoryFilter} category="businessCategoryFilter" onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
+                {Object.entries(filter).map(([key, value]) => {
+                    return (
+                        <VendorFilterComponent key={key} filter={value} category={key as keyof VendorFilter} onSelectFilter={onSelectFilter} onShowMore={onShowMore} />
+                    );
+                })}
             </ul>
         </div>
     );

@@ -3417,3 +3417,23 @@ a.ecta-button:hover {
     color: #00a7e2;
     text-decoration: none;
 }
+
+.page-button {
+    border: none;
+    background-color: inherit;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #00a7e2;
+}
+
+.page-button-active {
+    border: none;
+    background-color: inherit;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #cccccc;
+}
