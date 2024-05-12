@@ -8,6 +8,8 @@ import VendorComponent from "@/app/components/Vendor";
 import VendorsFiltersComponent from "@/app/components/VendorsFiltersComponent";
 import { useEffect, useState } from "react";
 import { groupAndCountByBrand, groupAndCountByBusinessCategory, groupAndCountByMall, groupAndCountCities } from "@/app/common/mallUtils";
+import Pager from "@/app/components/common/Pager";
+import { getPageData } from "@/app/common/pagingUtils";
 
 type SearchType = "city" | "mall" | "brand" | "state";
 type SearchParams = {
@@ -25,6 +27,8 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
     const [filteredVendors, setFilteredVendors] = useState<Vendor[]>([]);
     const [malls, setMalls] = useState<Mall[]>([]);
     const [categories, setCategories] = useState<Category[]>([]);
+    const [page, setPage] = useState<number>(1);
+    const pageSize = 12;
 
     useEffect(() => {
         const fetchVendors = async () => {
@@ -200,6 +204,10 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
         setGlobalFilter(filter as VendorFilter);
     }
 
+    const onPageChangeHandler = (pageNumber: number) => {
+        setPage(pageNumber)
+    }
+
     return (
         <div className="nav_view" id="epage">
             <SearchHeader />
@@ -211,10 +219,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                     </div>
                     <div className="row row-title normal">
                         <h1 id="vendorcount">{filteredVendors.length} Found</h1>
-                        <ul className="text-list" id="pagination">
-                            <li><a className="active">1</a>
-                            </li><li><a >2</a></li>
-                        </ul>
+                        <Pager hideWhenOnePage={true} count={filteredVendors.length} page={page} pageSize={pageSize} onPageChange={onPageChangeHandler} />
                         <div className="einvite" data-einvite="rfpvendors" data-max="5">
                             <form action="/dashboard/rfp" method="post" id="rfpform">
                                 <input type="hidden" name="hdnaction" id="hdnaction" value="vendorsearch" />
@@ -230,7 +235,7 @@ export default function SearchResult({ params: { term, searchType } }: SearchRes
                         <ul className="text-list match-parent" id="vendor_results">
                             {
                                 filteredVendors && filteredVendors.length && (
-                                    filteredVendors.map((v) => <VendorComponent vendor={v} term={term} key={`vendor-${v.cid}`} />)
+                                    getPageData(filteredVendors, pageSize, page).map((v) => <VendorComponent vendor={v} term={term} key={`vendor-${v.cid}`} />)
                                 )
                             }
                         </ul>
