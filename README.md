@@ -1,6 +1,6 @@
-# Status from Marian
+# Status
 
-Today: May 10:
+Today: May 13:
 
 <!-- insert link to local md called data-analysis.md -->
 
