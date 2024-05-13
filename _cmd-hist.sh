@@ -31,11 +31,13 @@
 # examples of 4urspace original calls:
 # https://4urspace.com/search/City/Houston
 # https://4urspace.com/search/State/New%20York
+# https://4urspace.com/search/Mall/Almeda%20Mall
 
 # #################################################################################
 # examples of nextjs calls:
 # http://localhost:3000/search/City/Houston
 # http://localhost:3000/search/State/New%20York
+# http://localhost:3000/search/Mall/Almeda%20Mall
 
 # prjs?: string;
 # citys: string[]; DONE
