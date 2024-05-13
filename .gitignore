@@ -41,3 +41,4 @@ next-env.d.ts
 /.vs/dashboard/v17/DocumentLayout.json
 /.vs/slnx.sqlite
 /.vs/dashboard/FileContentIndex/*.vsidx
+.aider*
